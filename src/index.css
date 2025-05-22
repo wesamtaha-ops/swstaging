@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('assets/fonts/Almarai-Medium.woff2') format('woff2'),
+    url('assets/fonts/Almarai-Medium.otf') format('otf'),
+    url('assets/fonts/Almarai-Medium.woff') format('woff');
+  font-weight: 500;
+  /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('assets/fonts/Almarai-Bold.woff2') format('woff2'),
+    url('assets/fonts/Almarai-Bold.otf') format('otf'),
+    url('assets/fonts/Almarai-Bold.woff') format('woff');
+  font-weight: 700;
+  /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('assets/fonts/Almarai-Extrabold.woff2') format('woff2'),
+    url('assets/fonts/Almarai-Extrabold.otf') format('otf'),
+    url('assets/fonts/Almarai-Extrabold.woff') format('woff');
+  font-weight: 800;
+  /* Extrabold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('assets/fonts/Almarai-Black.woff2') format('woff2'),
+    url('assets/fonts/Almarai-Black.otf') format('otf'),
+    url('assets/fonts/Almarai-Black.woff') format('woff');
+  font-weight: 900;
+  /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Medium.woff2') format('woff2'),
+    url('assets/fonts/Inter-Medium.otf') format('otf');
+  font-weight: 500;
+  /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Extrabold.woff2') format('woff2'),
+    url('assets/fonts/Inter-Extrabold.otf') format('otf');
+  font-weight: 800;
+  /* Extrabold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Black.woff2') format('woff2'),
+    url('assets/fonts/Inter-Black.otf') format('otf');
+  font-weight: 900;
+  /* Black */
+  font-style: normal;
+}
+
+/* Custom Animations */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.4);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Animation Utilities */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-gradient {
+  animation: gradient-shift 3s ease infinite;
+  background-size: 200% 200%;
+}
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
+
+/* Cookie Consent Dialog Animations */
+.cookie-consent-overlay {
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cookie-consent-content {
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.text-border {
+  color: #282828;
+  text-shadow:
+    -1px -1px 0 #282828,
+    1px -1px 0 #282828,
+    -1px 1px 0 #282828,
+    1px 1px 0 #282828;
+}

@@ -1,0 +1,170 @@
+/* Excel-like Table Styles */
+.excel-table-container {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden;
+  font-family: "Segoe UI", "Calibri", sans-serif;
+}
+
+.excel-table-wrapper {
+  @apply overflow-x-auto;
+  height: calc(100vh - 300px);
+}
+
+.excel-table {
+  @apply w-full border-collapse;
+  border-spacing: 0;
+}
+
+/* Header Styles */
+.excel-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f8f9fa;
+  border-bottom: 2px solid #d1d5db;
+}
+
+.excel-header-cell {
+  @apply px-4 py-2 text-left text-xs font-almarai text-gray-700 select-none cursor-pointer;
+  border: 1px solid #e5e7eb;
+  background: linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+.excel-header-cell:hover {
+  background: linear-gradient(180deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+
+/* Cell Styles */
+.excel-cell {
+  @apply px-4 py-2 text-sm text-gray-900;
+  border: 1px solid #e5e7eb;
+  min-width: 120px;
+}
+
+.excel-cell.selected {
+  background-color: #e8f0fe !important;
+  outline: 2px solid #1a73e8;
+  outline-offset: -2px;
+}
+
+.excel-cell.has-comment::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ef4444 transparent transparent #ef4444;
+}
+
+/* Row Styles */
+.excel-table-row {
+  @apply hover:bg-gray-50 transition-colors duration-75;
+}
+
+.excel-table-row.selected {
+  background-color: #f1f5f9;
+}
+
+.excel-table-row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Selection Styles */
+.excel-selection-area {
+  position: absolute;
+  border: 2px solid #1a73e8;
+  background-color: rgba(26, 115, 232, 0.1);
+  pointer-events: none;
+}
+
+/* Comment Styles */
+.excel-comment-thread {
+  @apply fixed z-50 bg-white rounded-lg shadow-xl border border-gray-200;
+  width: 320px;
+  max-height: 400px;
+}
+
+.excel-comment-header {
+  @apply flex items-center justify-between p-3 border-b border-gray-200;
+  background: linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+.excel-comment-body {
+  @apply p-4 overflow-y-auto;
+  max-height: 300px;
+}
+
+.excel-comment-footer {
+  @apply p-3 border-t border-gray-200 bg-gray-50;
+}
+
+/* Filter Styles */
+.excel-filter-button {
+  @apply inline-flex items-center px-2 py-1 text-xs font-almarai text-gray-700 bg-white border border-gray-300 rounded hover:bg-gray-50;
+}
+
+.excel-filter-menu {
+  @apply absolute z-50 mt-1 bg-white rounded-md shadow-lg border border-gray-200;
+  min-width: 200px;
+}
+
+/* Scrollbar Styles */
+.excel-table-wrapper::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.excel-table-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.excel-table-wrapper::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.excel-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Excel-like Grid Lines */
+
+
+/* Column Resize Handle */
+.excel-resize-handle {
+  @apply absolute top-0 right-0 w-1 h-full cursor-col-resize bg-transparent hover:bg-indigo-500;
+}
+
+/* Excel-like Toolbar */
+.excel-toolbar {
+  @apply flex items-center space-x-2 px-4 py-2 bg-gray-100 border-b border-gray-200;
+}
+
+.excel-toolbar-button {
+  @apply p-1 rounded hover:bg-gray-200 text-gray-600;
+}
+
+/* Excel-like Status Bar */
+.excel-status-bar {
+  @apply flex items-center justify-between px-4 py-1 bg-gray-100 border-t border-gray-200 text-xs text-gray-600;
+}
+
+/* Animation for Comment Indicator */
+@keyframes commentPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.excel-comment-indicator {
+  animation: commentPulse 2s infinite;
+}

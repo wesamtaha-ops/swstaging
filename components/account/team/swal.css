@@ -1,0 +1,91 @@
+.small-swal {
+    font-size: 15px !important;
+    font-family: "Almarai" !important;
+
+    /* Texte plus petit */
+    min-width: 250px !important;
+    /* Réduction largeur */
+    padding: 8px !important;
+    /* Espacement réduit */
+}
+
+.custom-swal {
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+.e-cercleAi {
+    margin: 50px auto;
+    background: transparent;
+    box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    width: 300px;
+    height: 460px;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    margin-left: -50%;
+    margin-top: -70%;
+    background: linear-gradient(744deg, rgb(240, 108, 14), rgb(202, 199, 200) 60%, rgb(224, 13, 20));
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+    top: 170px;
+}
+
+.playing .wave {
+    border-radius: 50%;
+    animation: wave 500ms infinite linear;
+    /*Réduireladuréede3000msà1500mspouraccélérer*/
+    -webkit-animation: wave 500ms infinite linear;
+}
+
+.wave {
+    border-radius: 50%;
+    animation: wave 5s infinite linear;
+    /*Réduireladuréede55sà25spouraccélérer*/
+    -webkit-animation: wave 5s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+    animation-duration: 400ms;
+    /* Réduit à 400ms */
+}
+
+.wave:nth-child(2) {
+    animation-duration: 5s;
+    /* Réduit à 5s */
+}
+
+.playing .wave:nth-child(3) {
+    animation-duration: 600ms;
+    /* Réduit à 600ms */
+}
+
+.wave:nth-child(3) {
+    animation-duration: 4s;
+    /* Réduit à 4s */
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(380deg);
+        -webkit-transform: rotate(380deg);
+        -moz-transform: rotate(380deg);
+        -ms-transform: rotate(380deg);
+        -o-transform: rotate(380deg);
+    }
+}

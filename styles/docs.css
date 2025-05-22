@@ -1,0 +1,145 @@
+/* Documentation Styles */
+.docs-content {
+  --docs-text: #1f2937;
+  --docs-text-light: #6b7280;
+  --docs-border: #e5e7eb;
+  --docs-code-bg: #f9fafb;
+  --docs-link: #4f46e5;
+  --docs-link-hover: #4338ca;
+}
+
+/* Typography */
+.docs-content h1 {
+  @apply text-4xl font-bold font-almarai font-almarai font-almarai text-gray-900 mb-6;
+}
+
+.docs-content h2 {
+  @apply text-2xl font-bold font-almarai font-almarai font-almarai text-gray-900 mt-12 mb-4;
+}
+
+.docs-content h3 {
+  @apply text-xl font-almarai text-gray-900 mt-8 mb-4;
+}
+
+.docs-content p {
+  @apply text-base text-gray-600 mb-4 leading-relaxed;
+}
+
+/* Lists */
+.docs-content ul {
+  @apply list-disc list-inside mb-4 text-gray-600;
+}
+
+.docs-content ol {
+  @apply list-decimal list-inside mb-4 text-gray-600;
+}
+
+.docs-content li {
+  @apply mb-2;
+}
+
+/* Code Blocks */
+.docs-content pre {
+  @apply bg-gray-900 rounded-lg p-4 mb-4 overflow-x-auto;
+}
+
+.docs-content code {
+  @apply font-mono text-sm;
+}
+
+.docs-content p code {
+  @apply bg-gray-100 text-gray-900 px-1.5 py-0.5 rounded text-sm;
+}
+
+/* Links */
+.docs-content a {
+  @apply text-indigo-600 hover:text-indigo-500 transition-colors duration-150;
+}
+
+/* Tables */
+.docs-content table {
+  @apply w-full mb-4;
+}
+
+.docs-content th {
+  @apply px-6 py-3 bg-gray-50 text-left text-xs font-almarai text-gray-500 uppercase tracking-wider;
+}
+
+.docs-content td {
+  @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+}
+
+/* Callouts */
+.docs-callout {
+  @apply p-4 rounded-lg mb-4 border-l-4;
+}
+
+.docs-callout.info {
+  @apply bg-blue-50 border-blue-500;
+}
+
+.docs-callout.warning {
+  @apply bg-yellow-50 border-yellow-500;
+}
+
+.docs-callout.error {
+  @apply bg-red-50 border-red-500;
+}
+
+/* API Documentation */
+.api-method {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-almarai;
+}
+
+.api-method.get {
+  @apply bg-green-100 text-green-800;
+}
+
+.api-method.post {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.api-method.put {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.api-method.delete {
+  @apply bg-red-100 text-red-800;
+}
+
+/* Navigation */
+.docs-nav-link {
+  @apply flex items-center px-3 py-2 text-sm font-almarai rounded-md transition-colors duration-150;
+}
+
+.docs-nav-link:hover {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.docs-nav-link.active {
+  @apply bg-indigo-50 text-indigo-600;
+}
+
+/* Search */
+.docs-search {
+  @apply w-full px-4 py-2 text-sm border border-gray-300 rounded-md;
+}
+
+.docs-search:focus {
+  @apply outline-none ring-2 ring-indigo-500 border-indigo-500;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .docs-content h1 {
+    @apply text-3xl;
+  }
+
+  .docs-content h2 {
+    @apply text-xl;
+  }
+
+  .docs-content h3 {
+    @apply text-lg;
+  }
+}

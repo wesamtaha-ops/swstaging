@@ -1,0 +1,515 @@
+/* Survey Preview Styles */
+html,
+body {
+  font-family: "Almarai" !important;
+}
+
+.survey-preview {
+  font-family: "Almarai" !important;
+  --preview-background: var(--sjs-general-backcolor, #ffffff);
+  --preview-text: var(--sjs-general-forecolor, #000000);
+  --preview-border: var(--sjs-border-default, rgba(0, 0, 0, 0.1));
+  --preview-radius: var(--sjs-corner-radius, 4px);
+  --preview-spacing: var(--sjs-base-unit, 8px);
+
+  background: var(--preview-background);
+  color: var(--preview-text);
+  border-radius: var(--preview-radius);
+  padding: var(--preview-spacing);
+  margin: 1rem 0;
+  box-shadow: var(--sjs-shadow-small);
+}
+
+.survey-preview-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Questions */
+.survey-preview .sv-question {
+  font-family: "Almarai" !important;
+  background: var(--preview-background);
+  border: 1px solid var(--preview-border);
+  border-radius: var(--preview-radius);
+  padding: calc(var(--preview-spacing) * 2);
+  margin-bottom: var(--preview-spacing);
+  transition: all 0.2s ease;
+}
+
+.survey-preview .sv-question:hover {
+  border-color: var(--sjs-primary-backcolor);
+  box-shadow: 0 0 0 1px var(--sjs-primary-backcolor-light);
+}
+
+.svc-tabbed-menu-item__text,
+.sv-title-actions__title {
+  font-family: "Almarai" !important;
+  font-size: 15px !important;
+  color: rgb(110, 108, 108) !important;
+}
+
+.sv-title-actions__title {
+  font-family: "Almarai" !important;
+  font-size: 10px;
+}
+
+/* Inputs */
+.survey-preview .sv-text {
+  font-family: "Almarai" !important;
+  border: 1px solid var(--preview-border);
+  border-radius: var(--preview-radius);
+  padding: var(--preview-spacing);
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.survey-preview .sv-text:focus {
+  border-color: var(--sjs-primary-backcolor);
+  box-shadow: 0 0 0 2px var(--sjs-primary-backcolor-light);
+  outline: none;
+}
+
+/* Radio & Checkbox */
+.survey-preview .sv-radio__svg,
+.survey-preview .sv-checkbox__svg {
+  color: var(--sjs-primary-backcolor);
+}
+
+/* Progress Bar */
+.survey-preview .sv-progress {
+  background: var(--preview-border);
+  border-radius: var(--preview-radius);
+  height: 4px;
+  margin: var(--preview-spacing) 0;
+}
+
+.survey-preview .sv-progress__bar {
+  background: var(--sjs-primary-backcolor);
+  border-radius: var(--preview-radius);
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+/* Buttons */
+.survey-preview .sv-btn {
+  background: var(--sjs-primary-backcolor);
+  color: var(--sjs-primary-forecolor);
+  border: none;
+  border-radius: var(--preview-radius);
+  padding: calc(var(--preview-spacing) * 1.5);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.survey-preview .sv-btn:hover {
+  background: var(--sjs-primary-backcolor-dark);
+}
+
+
+/* SurveyJS Creator Custom Theme */
+
+/* Main Container */
+.svc-creator {
+  font-family: "Almarai" !important;
+  background-color: #f9fafb !important;
+  /* gray-50 */
+}
+
+/* Toolbox */
+.svc-toolbox {
+  font-family: "Almarai" !important;
+  background: #fff !important;
+  border-right: 1px solid #e5e7eb !important;
+  /* gray-200 */
+}
+
+.svc-toolbox__tool:hover {
+  border-color: #6366f1 !important;
+  /* indigo-500 */
+  background: #eef2ff !important;
+  /* indigo-50 */
+}
+
+/* Properties Panel */
+.spg-panel {
+  background: #fff !important;
+  border-left: 1px solid #e5e7eb !important;
+}
+
+.spg-row {
+  border-bottom: 1px solid #f3f4f6 !important;
+  /* gray-100 */
+}
+
+.spg-panel__title {
+  color: #1f2937 !important;
+  /* gray-800 */
+  font-weight: 600 !important;
+}
+
+/* Tabs */
+.svc-tabbed-menu-item {
+  font-family: "Almarai" !important;
+  color: #6b7280 !important;
+  /* gray-500 */
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.svc-tabbed-menu-item--selected,
+.svc-tabbed-menu-item:hover {
+  color: #4f46e5 !important;
+  /* indigo-600 */
+  border-bottom-color: #4f46e5 !important;
+  background: transparent !important;
+}
+
+/* Buttons */
+.svc-button {
+  font-family: "Almarai" !important;
+  background: #4f46e5 !important;
+  /* indigo-600 */
+  border: none !important;
+  color: #fff !important;
+  border-radius: 0.375rem !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.svc-button:hover {
+  background: #4338ca !important;
+  /* indigo-700 */
+}
+
+.svc-button.svc-button--secondary {
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  color: #374151 !important;
+}
+
+.svc-button.svc-button--secondary:hover {
+  background: #f9fafb !important;
+  border-color: #d1d5db !important;
+}
+
+/* Property Editors */
+
+.spg-input {
+  font-family: "Almarai" !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 0.375rem !important;
+  padding: 0.5rem 0.75rem !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.spg-input:focus {
+  border-color: #6366f1 !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
+}
+
+/* Question Containers */
+.svc-question__content {
+  font-family: "Almarai" !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 0.5rem !important;
+  background: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.svc-question__content:hover {
+  font-family: "Almarai" !important;
+  border-color: #6366f1 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.svc-question__content--selected {
+  font-family: "Almarai" !important;
+  border-color: #4f46e5 !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
+}
+
+/* Page Navigator */
+.svc-page-navigator-item {
+  background: #fff !important;
+  border: 1px solid #e5e7eb !important;
+  color: #374151 !important;
+  transition: all 0.2s ease-in-out;
+  font-family: "Almarai" !important;
+}
+
+.svc-page-navigator-item--selected,
+.svc-page-navigator-item:hover {
+  background: #eef2ff !important;
+  border-color: #6366f1 !important;
+  color: #4f46e5 !important;
+}
+
+/* Survey Preview */
+.sd-root-modern {
+  background: #fff !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+
+.sd-btn {
+  background: #4f46e5 !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 0.375rem !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.sd-btn:hover {
+  background: #4338ca !important;
+}
+
+/* Dropdown Menus */
+.sv-popup {
+  border: 1px solid #e5e7eb !important;
+  border-radius: 0.375rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Error Messages */
+.svc-question__content--error {
+  border-color: #ef4444 !important;
+  /* red-500 */
+}
+
+.svc-question__content--error:hover {
+  border-color: #dc2626 !important;
+  /* red-600 */
+}
+
+/* Scrollbars */
+.svc-creator ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.svc-creator ::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.svc-creator ::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.svc-creator ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af !important;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.svc-question__content--new {
+  animation: fadeIn 0.3s ease-in-out !important;
+}
+
+.svc-toolbox__panel {
+  background: #f9fafb !important;
+}
+
+.spg-panel__content {
+  background: #f9fafb !important;
+}
+
+.svc-toolbox__panel {
+  background: #f9fafb !important;
+}
+
+.spg-input {
+  box-shadow: none !important;
+  border-radius: 1rem !important;
+}
+
+.svc-side-bar .svc-search {
+  border-bottom: 1px solid #e5edf5 !important;
+  background: #f9fafb !important;
+  gap: var(--ctr-property-grid-search-gap, var(--sjs-base-unit, var(--base-unit, 8px))) !important;
+  padding: var(--ctr-property-grid-search-padding-top, calc(2*(var(--sjs-base-unit, var(--base-unit, 8px))))) var(--ctr-property-grid-search-padding-right, calc(2*(var(--sjs-base-unit, var(--base-unit, 8px))))) var(--ctr-property-grid-search-padding-bottom, calc(2*(var(--sjs-base-unit, var(--base-unit, 8px))))) var(--ctr-property-grid-search-padding-left, calc(2*(var(--sjs-base-unit, var(--base-unit, 8px))))) !important;
+}
+
+.svc-toolbox__item {
+  padding: 10px !important
+}
+
+.sv-action-bar-item__title {
+  font-family: "Almarai" !important;
+
+}
+
+.svc-page__content:hover .sd-page:hover {
+
+  background-color: rgb(234, 232, 232) !important;
+
+}
+
+.svc-page:hover {
+  background-color: rgb(230, 228, 228) !important;
+}
+
+.svc-string-editor .sv-string-editor {
+  font-family: "Almarai" !important;
+}
+
+.svc-toolbox__item-title {
+  color: rgb(75, 74, 74) !important;
+  font-family: "Almarai" !important;
+}
+
+.svc-toolbox__search-container {
+  background: #ffffff !important;
+  border-bottom: 0px !important;
+}
+
+.svc-toolbox__item-submenu-button {
+  top: 17px !important;
+}
+
+.svc-toolbox__tool:hover {
+  background: none !important;
+}
+
+.svc-toolbox__tool {
+  width: 100% !important;
+}
+
+
+
+
+.svc-toolbox__item {
+  width: 100% !important;
+  /*border: 1px solid #e8eeff !important;
+    */
+  background: lightgray !important;
+  color: #374151 !important;
+  font-family: "Almarai" !important;
+  transition: all .2s ease-in-out;
+  margin-bottom: 10px !important;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.375rem !important;
+  -webkit-border-radius: 0.375rem !important;
+  -moz-border-radius: 0.375rem !important;
+  -ms-border-radius: 0.375rem !important;
+  -o-border-radius: 0.375rem !important;
+}
+
+
+.sv-toolbox .sv-toolbox__category {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permet aux éléments de passer à la ligne */
+  gap: 10px;
+  /* Ajoute un espacement entre les éléments */
+}
+
+.sv-toolbox .sv-toolbox__tool {
+  flex: 1 1 calc(33.33% - 10px);
+  /* Définit la largeur des éléments */
+  max-width: calc(33.33% - 10px);
+  /* Assure qu'ils ne dépassent pas 1/3 de la largeur */
+  text-align: center;
+  /* Centre le texte */
+  padding: 10px;
+  border: 1px solid #ddd;
+  /* Ajoute une bordure pour la visibilité */
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* .svc-flex-column{
+
+  width: 350px;
+} */
+
+.svc-toolbox-category {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.svc-toolbox-category__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Almarai" !important;
+  /* Assurez-vous que la couleur est visible */
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  /* Ligne séparatrice */
+}
+
+.svc-toolbox__item:focus .sv-svg-icon use,
+.svc-toolbox__tool--has-subitems:hover>.svc-toolbox__tool-content>.svc-toolbox__item .sv-svg-icon use,
+.svc-toolbox__item:hover .sv-svg-icon use {
+  fill: #5046e5 !important;
+}
+
+.spg-checkbox--checked .spg-checkbox__svg {
+  fill: #5046e5 !important;
+}
+
+.svc-side-bar__container-header {
+  box-shadow: inset 0px -1px #d6d6d6 !important;
+}
+
+.svc-top-bar .sv-action-bar-item--active .sv-action-bar-item__icon use {
+  fill: #5046e5 !important;
+}
+
+.svc-tabbed-menu-item--selected {
+  box-shadow: none !important;
+}
+
+.svc-btn .svc-add-new-item-button__text {
+  color: #5046e5 !important;
+  font-family: "Almarai" !important;
+}
+
+.sd-title.sd-container-modern__title {
+  box-shadow: 0px 2px 0px #5046e5 !important;
+}
+
+.svc-page-navigator-item--selected .svc-page-navigator-item__dot {
+  border: #5046e5 !important;
+}
+
+.spg-button-group__item--selected {
+  color: #5046e5 !important;
+  font-family: "Almarai" !important;
+}
+
+.svc-string-editor__border.svc-string-editor__border--focus {
+  box-shadow: none !important;
+}
+
+.svc-creator-tab {
+  background: rgb(243, 244, 246);
+}
+
+.svc-tab-designer {
+  margin: 15px !important;
+  border-radius: 30px !important;
+}
+
+
+
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}

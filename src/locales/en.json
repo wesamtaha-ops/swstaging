@@ -1,0 +1,1884 @@
+{
+  "signup": {
+    "title": "Create your account",
+    "already_have_account": "Already have an account?",
+    "sign_in": "Sign in",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "name_label": "Full name",
+    "name_placeholder": "Enter your full name",
+    "password_label": "Password",
+    "confirm_password_label": "Confirm password",
+    "password_placeholder": "Enter your password",
+    "confirm_password_placeholder": "Confirm your password",
+    "create_account": "Create account",
+    "loading": "Creating account",
+    "success_title": "Registration successful! 🎉",
+    "success_message": "Your account has been successfully created.",
+    "ok": "OK",
+    "verifymail": "Verify your Email!",
+    "closingin": "Closing in <b></b> milliseconds "
+  },
+  "login": {
+    "welcome": "It's great to see you again!",
+    "welcome_message": "Welcome! If you don't have an account,",
+    "signup_now": "Sign Up Now",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot your password?",
+    "login_button": "Log in",
+    "loading": "Loading...",
+    "or": "Or",
+    "continue_with_google": "Continue with Google",
+    "continue_with_github": "Continue with GitHub",
+    "continue_with_linkedin": "Continue with LinkedIn",
+    "about_us": "About Us",
+    "build_a_form": "Build a form",
+    "trusted_by_clients": "Trusted by a wide range of clients",
+    "connection": "Connection error",
+    "field": "empty fields",
+    "text1": "All fields are required!",
+    "error": "Please enter a valid email address"
+  },
+  "pricing22": {
+    "title1": " Create unlimited forms at no cost",
+    "included": "What’s included",
+    "alwaysFree": "Always, free",
+    "monthly": "/month",
+    "yearly": "/year",
+    "explorePremium": "Explore premium features",
+    "comparing": "and compare pricing",
+    "plan": "plans",
+    "comparePlans": "Explore all features and compare pricing plans",
+    "unlimitedUsers": "Unlimited users, just one fixed cost",
+    "startFree": "Start free and upgrade based on your needs. Pay monthly or save with an annual plan.",
+    "payMonthly": "Pay monthly",
+    "payYearly": "Pay yearly",
+    "getStarted": "Get started",
+    "currentPlan": "Current Plan",
+    "features": {
+      "limitedSurveys": "Limited surveys & respondents",
+      "basicQuestions": "Basic question types",
+      "emailVerification": "Email verification",
+      "basicSecurity": "Basic security features",
+      "limitedReporting": "Limited reporting (Excel, CSV)",
+      "unlimitedSurveys": "Unlimited surveys & respondents",
+      "advancedQuestions": "Advanced question types and logic",
+      "emailSMS": "Email/SMS campaigns",
+      "abTesting": "A/B testing",
+      "socialMedia": "Social media links, custom email templates",
+      "enhancedReporting": "Enhanced reporting (Bar/Pie Charts, Cross-tab, Excel export)",
+      "fullLogic": "Full survey logic",
+      "aiQuestions": "AI-generated questions",
+      "conversationalQuestions": "Conversational questions",
+      "fullReporting": "Full reporting suite",
+      "multiLanguage": "Multi-language (2 languages)",
+      "smsEmailTesting": "SMS/Email with A/B testing",
+      "turfNps": "TURF & NPS analysis",
+      "allFeatures": "All features unlocked",
+      "unlimitedUsersLang": "Unlimited users & languages",
+      "advancedIntegrations": "Advanced integrations",
+      "realTimeReporting": "Dynamic real-time reporting",
+      "roleBasedAccess": "Role-based access control",
+      "fullApiAccess": "Full API access",
+      "gdprCompliance": "GDPR compliance"
+    }
+  },
+  "navigation": {
+    "products": "Products",
+    "industries": "Industries",
+    "templates": "Templates",
+    "resources": "Resources",
+    "pricing": "Pricing",
+    "notifications": "Notifications",
+    "view_all_notifications": "View all notifications",
+    "login": "Login",
+    "signup": "Get Started",
+    "open_menu": "Open main menu"
+  },
+  "hero1": {
+    "title": "Get to know your customers",
+    "subtitle": " with AI power",
+    "description": "Collect all the data you need to understand customers with forms designed to be refreshingly different.",
+    "cta": "Get started - it's free",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "formPreview": {
+    "design_ai": "Design with AI",
+    "design_ai_desc": "Describe your form and let AI create it instantly",
+    "customize": "Customize Design",
+    "customize_desc": "Fine-tune your form with our intuitive builder",
+    "share_collect": "Share & Collect",
+    "share_collect_desc": "Share your form through multiple channels",
+    "analytics": "AI Analytics",
+    "analytics_desc": "Get deep insights from your responses",
+    "ai_form_generator": "AI Form Generator",
+    "generated_seconds": "Generated in seconds",
+    "describe_form": "Describe your form",
+    "sample_description": "Create a customer feedback survey with rating questions, NPS score, and open-ended feedback sections",
+    "form_builder": "Form Builder",
+    "rating_question": "Rating Question",
+    "add_question": "Add Question",
+    "theme_settings": "Theme Settings",
+    "share_form": "Share Your Form",
+    "multiple_sharing": "Multiple sharing options available",
+    "direct_link": "Direct Link",
+    "share_via_url": "Share via URL",
+    "embed": "Embed",
+    "add_to_website": "Add to your website",
+    "ai_analytics": "AI-Powered Analytics",
+    "real_time_insights": "Real-time insights",
+    "response_overview": "Response Overview",
+    "ai_insights": "AI Insights",
+    "sample_insight": "85% of respondents show positive sentiment towards the new features"
+  },
+  "productsSection": {
+    "main_title": "Everything you need to create forms",
+    "main_description": "Build forms, gather data, drive results.",
+    "tag": "Products",
+    "secondary_title": "Everything you need to collect data",
+    "secondary_description": "Maximize productivity with the tools you already know and love."
+  },
+  "products": {
+    "aiCreation": {
+      "name": "AI-Powered Form Creation",
+      "description": "Create beautiful, responsive forms with our drag-and-drop builder"
+    },
+    "smartSuggestions": {
+      "name": "Smart Suggestions",
+      "description": "Design comprehensive surveys with advanced logic and branching"
+    },
+    "advancedAnalytics": {
+      "name": "Advanced Analytics",
+      "description": "Get insights from survey data with powerful analytics"
+    },
+    "globalReach": {
+      "name": "Global Reach",
+      "description": "Build engaging quizzes with scoring and instant feedback"
+    },
+    "enterpriseSecurity": {
+      "name": "Enterprise Security",
+      "description": "Ensure data protection with our enterprise-grade security"
+    },
+    "templateLibrary": {
+      "name": "Template Library",
+      "description": "Choose from pre-designed templates to speed up your process"
+    }
+  },
+  "product1": {
+    "formBuilder": {
+      "name": "Form Builder",
+      "description": "Create beautiful, responsive forms with our drag-and-drop builder"
+    },
+    "surveyBuilder": {
+      "name": "Survey Builder",
+      "description": "Design comprehensive surveys with advanced logic and branching"
+    },
+    "quizMaker": {
+      "name": "Quiz Maker",
+      "description": "Build engaging quizzes with scoring and instant feedback"
+    }
+  },
+  "industries1": {
+    "label": "Industries",
+    "title": "Trusted across industries",
+    "subtitle": "Tailored solutions for your specific industry needs"
+  },
+  "industries": {
+    "financial": {
+      "name": "Financial Services",
+      "description": "Secure forms for financial data collection and processing"
+    },
+    "healthcare": {
+      "name": "Healthcare",
+      "description": "Manage medical records securely with industry-standard compliance"
+    },
+    "realestate": {
+      "name": "Real Estate",
+      "description": "Simplify client documentation and transaction processing"
+    },
+    "government": {
+      "name": "Government",
+      "description": "Secure and efficient data collection for government agencies"
+    },
+    "nonprofit": {
+      "name": "Non-Profit",
+      "description": "Streamline donor and volunteer management forms"
+    }
+  },
+  "pricing1": {
+    "label": "Plans & Pricing",
+    "title": "Unlimited users, just one fixed cost",
+    "subtitle": "Start free and upgrade based on your needs. Pay monthly or save with an annual plan.",
+    "payMonthly": "Pay monthly",
+    "payYearly": "Pay yearly",
+    "startTrial": "Start free trial",
+    "test": "For individuals who need basic forms.",
+    "monthly": "monthly"
+  },
+  "features": {
+    "unlimitedForms": "Unlimited forms",
+    "prioritySupport": "Priority support"
+  },
+  "pricing": {
+    "tiers": {
+      "free": {
+        "name": "Free",
+        "cta": "Start for free",
+        "description": "For individuals who need basic forms",
+        "features": {
+          "limitedSurveys": "Limited surveys and respondents",
+          "basicQuestions": "Basic question types",
+          "emailVerification": "Email verification",
+          "basicSecurity": "Basic security features",
+          "limitedReporting": "Limited reporting (Excel, CSV)"
+        }
+      },
+      "basic": {
+        "name": "Basic",
+        "cta": "Start free trial",
+        "description": "For individuals who need basic forms.",
+        "features": {
+          "unlimitedSurveys": "Unlimited surveys & respondents",
+          "advancedQuestions": "Advanced question types and logic",
+          "emailSms": "Email/SMS campaigns",
+          "abTesting": "A/B testing",
+          "customEmails": "Custom email templates",
+          "enhancedReporting": "Enhanced reporting"
+        }
+      },
+      "advanced": {
+        "name": "Advanced",
+        "cta": "Start free trial",
+        "description": "Make your forms on-brand and unlock powerful features.",
+        "features": {
+          "fullLogic": "Full survey logic",
+          "aiQuestions": "AI-generated questions",
+          "conversationalQuestions": "Conversational questions",
+          "fullReporting": "Full reporting suite",
+          "multiLanguage": "Multi-language (2 languages)",
+          "smsEmailAb": "SMS/Email with A/B testing",
+          "turfNps": "TURF & NPS analysis"
+        }
+      },
+      "premium": {
+        "name": "Premium",
+        "cta": "Contact sales",
+        "description": "Analyze performance and scale your data intake.",
+        "features": {
+          "allUnlocked": "All features unlocked",
+          "unlimitedUsersLanguages": "Unlimited users & languages",
+          "advancedIntegrations": "Advanced integrations",
+          "dynamicReporting": "Dynamic real-time reporting",
+          "roleAccess": "Role-based access control",
+          "apiAccess": "Full API access",
+          "gdpr": "GDPR compliance"
+        }
+      }
+    },
+    "table": {
+      "surveyCreation": "Survey Creation",
+      "responseLimit": "Response Limit",
+      "questionTypes": "Question Types",
+      "aiFeatures": "AI Features",
+      "analytics": "Analytics",
+      "basic": "Basic",
+      "advanced": "Advanced",
+      "fullLogic": "Full Logic",
+      "enterprise": "Enterprise",
+      "unlimited": "Unlimited",
+      "allTypes": "All Types",
+      "customTypes": "Custom Types",
+      "enhanced": "Enhanced",
+      "custom": "Custom"
+    }
+  },
+  "footer": {
+    "explore": {
+      "title": "Explore",
+      "items": {
+        "goPro": "Go pro",
+        "exploreDesigns": "Explore Designs",
+        "createDesigns": "Create Designs",
+        "playoffs": "Playoffs"
+      }
+    },
+    "collaborate": {
+      "title": "Collaborate",
+      "items": {
+        "about": "About",
+        "careers": "Careers",
+        "supports": "Supports",
+        "mediaKits": "Media Kits"
+      }
+    },
+    "innovate": {
+      "title": "Innovate",
+      "items": {
+        "tags": "Tags",
+        "api": "API",
+        "places": "Places",
+        "creativeMarkets": "Creative Markets"
+      }
+    },
+    "about": {
+      "title": "About",
+      "items": {
+        "community": "Community",
+        "designers": "Designers",
+        "support": "Support",
+        "terms": "Terms of service"
+      }
+    },
+    "resources": {
+      "title": "Resources",
+      "items": {
+        "bestPractices": "Best practices",
+        "downloads": "Downloads",
+        "whatsNew": "What’s New?",
+        "privacy": "Privacy"
+      }
+    },
+    "designAssets": {
+      "title": "Design Assets",
+      "items": {
+        "sketch": "Sketch",
+        "adobeXd": "Adobe XD",
+        "framer": "Framer",
+        "misc": "Misc"
+      }
+    },
+    "signup": "Sign up"
+  },
+  "footer": {
+    "explore": {
+      "title": "Explore",
+      "items": {
+        "goPro": "Go pro",
+        "exploreDesigns": "Explore Designs",
+        "createDesigns": "Create Designs",
+        "playoffs": "Playoffs"
+      }
+    },
+    "collaborate": {
+      "title": "Collaborate",
+      "items": {
+        "about": "About",
+        "careers": "Careers",
+        "supports": "Supports",
+        "mediaKits": "Media Kits"
+      }
+    },
+    "innovate": {
+      "title": "Innovate",
+      "items": {
+        "tags": "Tags",
+        "api": "API",
+        "places": "Places",
+        "creativeMarkets": "Creative Markets"
+      }
+    },
+    "about": {
+      "title": "About",
+      "items": {
+        "community": "Community",
+        "designers": "Designers",
+        "support": "Support",
+        "terms": "Terms of service"
+      }
+    },
+    "resources": {
+      "title": "Resources",
+      "items": {
+        "bestPractices": "Best practices",
+        "downloads": "Downloads",
+        "whatsNew": "What’s New?",
+        "privacy": "Privacy"
+      }
+    },
+    "designAssets": {
+      "title": "Design Assets",
+      "items": {
+        "sketch": "Sketch",
+        "adobeXd": "Adobe XD",
+        "framer": "Framer",
+        "misc": "Misc"
+      }
+    },
+    "signup": "Sign up"
+  },
+  "pricing2": {
+    "title": "Create unlimited forms at no cost"
+  },
+  "temoignage": {
+    "description1": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nost",
+    "description2": "met, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnost",
+    "const": "met, consectetur adipiscing",
+    "const2": "Ut enim ad minim venia"
+  },
+  "footer_pricing": {
+    "aboutUs": "About us",
+    "title": "Survey Company",
+    "description": "For organizations with high security & complex data needs.",
+    "services": {
+      "unlimitedSurveys": "Unlimited surveys & respondents",
+      "advancedQuestionTypes": "Advanced question types and logic",
+      "emailCampaigns": "Email/SMS campaigns",
+      "abTesting": "A/B testing"
+    },
+    "learnMore": "Learn more"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Can’t find the answer you’re looking for? Ask us.",
+    "questions": [
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d",
+        "answer": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum felis, sed ullamcorper tempus faucibus in imperdiet. Semper justo mauris sed fusce erat aenean tristique."
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d",
+        "answer": ""
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d",
+        "answer": ""
+      },
+      {
+        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d",
+        "answer": ""
+      }
+    ]
+  },
+  "products2": {
+    "core_products": "Core Products",
+    "features": "Features",
+    "form_builder": {
+      "title": "Form Builder",
+      "description": "Create beautiful forms with drag & drop"
+    },
+    "survey_maker": {
+      "title": "Survey Maker",
+      "description": "Design comprehensive surveys"
+    },
+    "ai_forms": {
+      "title": "AI Forms",
+      "description": "Generate forms with AI assistance"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Get insights from responses"
+    },
+    "automations": {
+      "title": "Automations",
+      "description": "Automate your workflow"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "description": "Connect your tools"
+    },
+    "templates": {
+      "title": "Templates",
+      "description": "Ready-to-use forms"
+    },
+    "whats_new": {
+      "title": "What's New",
+      "ai_forms": {
+        "title": "Introducing AI Form Generation",
+        "description": "Create forms in seconds with AI assistance"
+      },
+      "analytics": {
+        "title": "Enhanced Analytics Dashboard",
+        "description": "Get deeper insights from your form responses"
+      },
+      "view_all": "View all updates"
+    }
+  },
+  "industries2": {
+    "popular": "Popular Industries",
+    "more": "More Industries",
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "HIPAA-compliant forms & surveys"
+    },
+    "education": {
+      "title": "Education",
+      "description": "Academic forms & assessments"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Large-scale form solutions"
+    },
+    "hr": {
+      "title": "HR & Recruiting",
+      "description": "Hiring & onboarding"
+    },
+    "real_estate": {
+      "title": "Real Estate",
+      "description": "Property management"
+    },
+    "retail": {
+      "title": "Retail",
+      "description": "Customer feedback"
+    },
+    "non_profit": {
+      "title": "Non-Profit",
+      "description": "Donation forms"
+    },
+    "success_stories": {
+      "title": "Success Stories",
+      "healthcare": {
+        "title": "How Memorial Hospital improved patient intake by 45%"
+      },
+      "education": {
+        "title": "University reduces enrollment processing time by 60%"
+      },
+      "read": "Read case study"
+    }
+  },
+  "templates": {
+    "search_placeholder": "Search templates...",
+    "popular_categories": "Popular Categories",
+    "most_used": "Most Used Templates",
+    "browse_all": "Browse all templates",
+    "uses": "uses",
+    "categories": {
+      "customer_feedback": {
+        "title": "Customer Feedback",
+        "description": "Surveys and feedback forms"
+      },
+      "business_operations": {
+        "title": "Business Operations",
+        "description": "Internal processes and workflows"
+      },
+      "education": {
+        "title": "Education",
+        "description": "Learning and assessment forms"
+      }
+    },
+    "popular": {
+      "customer_satisfaction": {
+        "title": "Customer Satisfaction Survey",
+        "category": "Customer Feedback"
+      },
+      "job_application": {
+        "title": "Job Application Form",
+        "category": "HR"
+      },
+      "event_registration": {
+        "title": "Event Registration",
+        "category": "Events"
+      }
+    },
+    "create": {
+      "title": "Create Custom Template",
+      "description": "Need a specialized template? Create your own or let our AI help you design the perfect form.",
+      "from_scratch": "Create from Scratch",
+      "ai_generator": "AI Template Generator"
+    }
+  },
+  "resources": {
+    "learn_connect": "Learn & Connect",
+    "featured": "Featured Content",
+    "need_help": "Need Help?",
+    "contact_support": "Contact Support",
+    "contact_description": "Get help from our team",
+    "webinar": {
+      "title": "Latest Webinar",
+      "description": "Form Design Best Practices"
+    },
+    "docs": {
+      "title": "Documentation",
+      "description": "Guides and API references"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
+    },
+    "help": {
+      "title": "Help Center",
+      "description": "Get help and support"
+    }
+  },
+  "benefits": {
+    "title": "Benefits",
+    "headline": "Why Choose Our Form Builder?",
+    "description": "Discover how our form builder can transform your data collection process and improve your workflow.",
+    "items": {
+      "saveTime": {
+        "title": "Save Time and Money",
+        "desc": "Build forms in minutes instead of hours. No need to hire developers or designers."
+      },
+      "noCoding": {
+        "title": "No Coding Required",
+        "desc": "Our intuitive interface means anyone can create professional forms without writing code."
+      },
+      "design": {
+        "title": "Professional Design",
+        "desc": "Every form looks great out of the box with our carefully crafted templates and themes."
+      },
+      "ux": {
+        "title": "Better User Experience",
+        "desc": "Smart features like conditional logic and validation create a smooth experience for your users."
+      },
+      "data": {
+        "title": "Improved Data Collection",
+        "desc": "Structured data collection with validation and custom fields for better quality responses."
+      },
+      "integration": {
+        "title": "Easy Integration",
+        "desc": "Connect your forms with your favorite tools through our extensive integration options."
+      }
+    }
+  },
+  "features": {
+    "title": "Powerful Features",
+    "headline": "Everything you need to create amazing forms",
+    "description": "Our form builder comes packed with all the features you need to create professional forms that convert.",
+    "items": {
+      "dragDrop": {
+        "title": "Drag-and-Drop Interface",
+        "desc": "Build forms intuitively by dragging and dropping elements exactly where you want them."
+      },
+      "templates": {
+        "title": "Pre-built Templates",
+        "desc": "Start with professionally designed templates and customize them to your needs."
+      },
+      "logic": {
+        "title": "Conditional Logic",
+        "desc": "Create dynamic forms that adapt based on user responses."
+      },
+      "security": {
+        "title": "Advanced Security",
+        "desc": "Enterprise-grade security with encryption and compliance features."
+      },
+      "responsive": {
+        "title": "Mobile Responsive",
+        "desc": "Forms that look and work perfectly on any device."
+      },
+      "uploads": {
+        "title": "File Uploads",
+        "desc": "Securely collect files and documents from your users."
+      },
+      "multiPage": {
+        "title": "Multi-Page Forms",
+        "desc": "Break long forms into manageable sections with progress tracking."
+      },
+      "payments": {
+        "title": "Payment Integration",
+        "desc": "Accept payments securely with popular payment gateways."
+      }
+    }
+  },
+  "hero": {
+    "badge": "Latest Features",
+    "version": "Just shipped v2.0",
+    "title": "Create Professional Forms Without Code",
+    "description": "Build beautiful, responsive forms in minutes with our intuitive drag-and-drop builder. From simple contact forms to complex surveys, we've got you covered.",
+    "cta": {
+      "start": "Start Building Free",
+      "browse": "Browse Templates"
+    },
+    "aiBanner": "AI-Powered Form Creation"
+  },
+  "pricing123": {
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the plan that best fits your needs. All plans include a 14-day free trial.",
+    "tiers": {
+      "free": {
+        "name": "Free",
+        "description": "Perfect for individuals and small projects",
+        "features": [
+          "Up to 5 forms",
+          "100 responses per month",
+          "Basic form elements",
+          "Email notifications",
+          "Export to CSV"
+        ],
+        "cta": "Start Free"
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Great for professionals and growing businesses",
+        "features": [
+          "Unlimited forms",
+          "10,000 responses per month",
+          "Advanced form elements",
+          "File uploads",
+          "Custom branding",
+          "Priority support",
+          "API access"
+        ],
+        "cta": "Start Free Trial"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large organizations with custom needs",
+        "features": [
+          "Unlimited everything",
+          "Custom integrations",
+          "SLA guarantee",
+          "Dedicated support",
+          "Custom security features",
+          "On-premise deployment",
+          "Advanced analytics"
+        ],
+        "cta": "Contact Sales"
+      }
+    },
+    "perMonth": "/month"
+  },
+  "useCases": {
+    "title": "Built for Every Use Case",
+    "description": "Whether you're gathering customer feedback, registering event attendees, or managing applications, our form builder adapts to your needs.",
+    "items": {
+      "contact": {
+        "title": "Contact Forms",
+        "desc": "Easily create contact forms to stay connected with your audience."
+      },
+      "feedback": {
+        "title": "Feedback Surveys",
+        "desc": "Collect actionable insights from users or customers."
+      },
+      "registration": {
+        "title": "Event Registration",
+        "desc": "Streamline participant registration for any type of event."
+      },
+      "application": {
+        "title": "Job Applications",
+        "desc": "Simplify recruitment with customized application forms."
+      },
+      "order": {
+        "title": "Order Forms",
+        "desc": "Allow users to place orders and submit requests effortlessly."
+      },
+      "education": {
+        "title": "Education & Exams",
+        "desc": "Design forms for quizzes, assignments, and academic registration."
+      }
+    }
+  },
+  "technicalSpecs": {
+    "title": "Technical Specifications",
+    "description": "Our form builder is designed with the latest technologies to ensure security, scalability, and flexibility.",
+    "items": {
+      "framework": {
+        "title": "Modern Framework",
+        "desc": "Built using React and Tailwind CSS for a fast and responsive UI."
+      },
+      "api": {
+        "title": "Robust API",
+        "desc": "Integrate with your systems easily using our RESTful API."
+      },
+      "compliance": {
+        "title": "Compliance Ready",
+        "desc": "Compliant with GDPR and CCPA standards for data protection."
+      },
+      "security": {
+        "title": "Enterprise Security",
+        "desc": "End-to-end encryption and role-based access control."
+      },
+      "scalability": {
+        "title": "Highly Scalable",
+        "desc": "Optimized to support high traffic and large-scale submissions."
+      },
+      "performance": {
+        "title": "Performance Optimized",
+        "desc": "Fast load times and smooth interactions for a better user experience."
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Ready to build your first form?",
+    "description": "Start your 14-day free trial. No credit card required.",
+    "cta": "Start Free Trial"
+  },
+  "socialProof": {
+    "heading": "Trusted by Thousands",
+    "subheading": "Don't just take our word for it",
+    "stats": {
+      "users": "Active Users",
+      "forms": "Forms Created",
+      "data": "Data Points Collected",
+      "satisfaction": "Customer Satisfaction"
+    }
+  },
+  "socialProofTestimonials": {
+    "testimonials": [
+      {
+        "content": "The form builder has completely transformed how we collect data. It's intuitive, powerful, and the AI features are a game-changer.",
+        "author": {
+          "name": "Sarah Johnson",
+          "role": "Product Manager",
+          "company": "TechCorp"
+        }
+      },
+      {
+        "content": "We've seen a 40% increase in form completion rates since switching to this platform. The conditional logic features are exceptional.",
+        "author": {
+          "name": "Michael Chen",
+          "role": "Digital Marketing Director",
+          "company": "GrowthLabs"
+        }
+      },
+      {
+        "content": "The analytics and reporting capabilities have given us invaluable insights into our customer feedback process.",
+        "author": {
+          "name": "Emily Rodriguez",
+          "role": "Customer Success Lead",
+          "company": "ServicePro"
+        }
+      }
+    ]
+  },
+  "surveyMaker": {
+    "hero": {
+      "title": "Create Beautiful Surveys in Minutes",
+      "description": "Powerful survey creation platform with AI assistance, advanced analytics, and enterprise-grade security",
+      "ctaPrimary": "Get Started Free",
+      "ctaSecondary": "View Templates"
+    },
+    "featuresSection": {
+      "title": "Everything You Need to Create Amazing Surveys",
+      "subtitle": "Powerful features to help you create, distribute, and analyze surveys with ease",
+      "features": [
+        {
+          "title": "AI-Powered Creation",
+          "description": "Create professional surveys in seconds with our AI assistant"
+        },
+        {
+          "title": "Advanced Analytics",
+          "description": "Get deep insights with real-time analytics and reporting"
+        },
+        {
+          "title": "Global Reach",
+          "description": "Multilingual surveys with automatic translation"
+        },
+        {
+          "title": "Enterprise Security",
+          "description": "Bank-level security with GDPR compliance"
+        }
+      ]
+    },
+    "stepsSection": {
+      "title": "How It Works",
+      "subtitle": "Create and launch your survey in four simple steps",
+      "steps": [
+        {
+          "title": "Choose a Template",
+          "description": "Start with a pre-built template or create from scratch"
+        },
+        {
+          "title": "Customize",
+          "description": "Add your questions and brand elements"
+        },
+        {
+          "title": "Share & Collect",
+          "description": "Distribute your survey and gather responses"
+        },
+        {
+          "title": "Analyze Results",
+          "description": "Get insights from powerful analytics"
+        }
+      ]
+    },
+    "testimonialsSection": {
+      "title": "Trusted by Thousands of Companies",
+      "subtitle": "See what our customers have to say about our survey platform"
+    },
+    "ctaSection": {
+      "title": "Ready to Create Your First Survey?",
+      "subtitle": "Get started for free and upgrade anytime. No credit card required.",
+      "ctaPrimary": "Start Free Trial",
+      "ctaSecondary": "Contact Sales"
+    }
+  },
+  "aiForms": {
+    "hero": {
+      "badge": "Powered by Advanced AI",
+      "title": "Create Forms with the Power of AI",
+      "description": "Transform your ideas into professional forms instantly. Let AI handle the design, logic, and analysis while you focus on what matters most.",
+      "ctaPrimary": "Try AI Form Creator",
+      "ctaSecondary": "View Examples",
+      "example": "Create a customer feedback form with rating questions and open-ended responses"
+    },
+    "featuresTitle": "AI-Powered Form Building",
+    "featuresSubtitle": "Experience the future of form creation with our advanced AI capabilities",
+    "features": [
+      {
+        "title": "Intelligent Form Generation",
+        "description": "Describe your form in plain text and watch AI create it instantly"
+      },
+      {
+        "title": "Smart Field Suggestions",
+        "description": "AI suggests relevant fields and validation rules based on your form type"
+      },
+      {
+        "title": "Response Analysis",
+        "description": "AI-powered insights and patterns from your form responses"
+      },
+      {
+        "title": "Sentiment Analysis",
+        "description": "Understand respondent sentiment and emotions automatically"
+      }
+    ],
+    "useCasesTitle": "AI Forms in Action",
+    "useCasesSubtitle": "See how AI transforms form creation across different use cases",
+    "useCases": [
+      {
+        "title": "Customer Feedback",
+        "description": "Generate comprehensive feedback forms with smart follow-up questions"
+      },
+      {
+        "title": "Market Research",
+        "description": "Create targeted surveys with AI-optimized question flow"
+      },
+      {
+        "title": "Employee Surveys",
+        "description": "Design engaging employee feedback forms with sentiment analysis"
+      }
+    ],
+    "analysisTitle": "AI-Powered Response Analysis",
+    "analysis": [
+      {
+        "title": "Sentiment Analysis",
+        "description": "Automatically detect respondent emotions and sentiment"
+      },
+      {
+        "title": "Pattern Recognition",
+        "description": "Identify trends and patterns in responses"
+      },
+      {
+        "title": "Smart Insights",
+        "description": "Get AI-generated recommendations and insights"
+      }
+    ],
+    "analysisCard": {
+      "title": "Response Analysis",
+      "badge": "Live",
+      "score": "Sentiment Score",
+      "responses": "Responses Today",
+      "completion": "Completion Rate"
+    },
+    "cta": {
+      "title": "Ready to experience the future of form creation?",
+      "subtitle": "Start creating AI-powered forms today. No credit card required.",
+      "ctaPrimary": "Get started"
+    }
+  },
+  "healthcare": {
+    "hero": {
+      "badge": "Healthcare Solutions",
+      "title": "HIPAA-Compliant Forms for Healthcare Providers",
+      "description": "Secure, efficient, and compliant digital forms and surveys for healthcare organizations. Streamline patient intake, feedback, and data collection.",
+      "ctaPrimary": "Start Free Trial",
+      "ctaSecondary": "View Templates"
+    },
+    "featuresTitle": "Built for Healthcare Providers",
+    "featuresSubtitle": "Everything you need to collect and manage patient information securely",
+    "features": [
+      {
+        "title": "HIPAA Compliant Forms",
+        "description": "Secure, compliant forms for patient data collection and medical surveys"
+      },
+      {
+        "title": "Patient Intake Forms",
+        "description": "Digital intake forms with medical history and insurance information"
+      },
+      {
+        "title": "Patient Satisfaction Surveys",
+        "description": "Gather feedback to improve patient experience and care quality"
+      },
+      {
+        "title": "Medical Research Surveys",
+        "description": "Tools for clinical research and medical studies"
+      }
+    ],
+    "securityTitle": "Enterprise-Grade Security & Compliance",
+    "security": [
+      {
+        "title": "HIPAA Compliance",
+        "description": "Fully compliant with healthcare data protection regulations"
+      },
+      {
+        "title": "Data Encryption",
+        "description": "End-to-end encryption for all patient data"
+      },
+      {
+        "title": "Access Controls",
+        "description": "Role-based access control and audit trails"
+      }
+    ],
+    "useCasesTitle": "Healthcare Use Cases",
+    "useCasesSubtitle": "Discover how healthcare providers use our platform",
+    "useCases": [
+      {
+        "title": "Patient Registration",
+        "description": "Streamline the patient registration process with digital forms"
+      },
+      {
+        "title": "Health Assessments",
+        "description": "Conduct comprehensive health assessments and screenings"
+      },
+      {
+        "title": "Medical History",
+        "description": "Collect detailed patient medical history and medications"
+      }
+    ],
+    "cta": {
+      "title": "Ready to Transform Your Healthcare Forms?",
+      "subtitle": "Join thousands of healthcare providers using our HIPAA-compliant platform.",
+      "ctaPrimary": "Start Free Trial",
+      "ctaSecondary": "Contact Sales"
+    }
+  },
+  "education": {
+    "hero": {
+      "badge": "Modern Education",
+      "title": "Create Smart Forms for Education",
+      "description": "Digital forms for course feedback, student registration, and school assessments.",
+      "ctaPrimary": "Get Started Free",
+      "ctaSecondary": "Browse Templates"
+    },
+    "featuresTitle": "Key Features for Education",
+    "featuresSubtitle": "Simplify student and academic data collection with powerful tools",
+    "features": [
+      {
+        "title": "Course Evaluations",
+        "description": "Collect feedback from students efficiently"
+      },
+      {
+        "title": "Knowledge Tests",
+        "description": "Create tests and quizzes with auto-grading"
+      },
+      {
+        "title": "Application Forms",
+        "description": "Design custom forms for admissions and applications"
+      },
+      {
+        "title": "Performance Tracking",
+        "description": "Monitor academic performance over time"
+      }
+    ],
+    "benefitsTitle": "Why Choose Our Solution",
+    "benefits": [
+      {
+        "title": "Intuitive Interface",
+        "description": "Easy-to-use builder for educators and staff"
+      },
+      {
+        "title": "Data Analytics",
+        "description": "Turn responses into visual insights"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Collaborate with teachers and admin teams"
+      }
+    ],
+    "useCasesTitle": "Education Use Cases",
+    "useCasesSubtitle": "Powerful tools for schools, universities, and training centers",
+    "useCases": [
+      {
+        "title": "Student Surveys",
+        "description": "Gather input on course satisfaction and student needs"
+      },
+      {
+        "title": "Online Exams",
+        "description": "Conduct secure and accessible online assessments"
+      },
+      {
+        "title": "Faculty Feedback",
+        "description": "Enable students to evaluate teaching quality"
+      }
+    ],
+    "cta": {
+      "title": "Empower Education with Smart Forms",
+      "subtitle": "Join hundreds of educational institutions using our platform",
+      "ctaPrimary": "Start Free Trial",
+      "ctaSecondary": "Contact Us"
+    }
+  },
+  "enterprise": {
+    "hero": {
+      "badge": "Enterprise Solutions",
+      "title": "Build secure, scalable workflows",
+      "description": "Streamline processes across your organization with enterprise-grade tools and analytics.",
+      "ctaPrimary": "Request a Demo",
+      "ctaSecondary": "Talk to Sales"
+    },
+    "featuresTitle": "Enterprise Features",
+    "featuresSubtitle": "Tailored for large-scale business needs",
+    "features": [
+      {
+        "title": "Advanced Security",
+        "description": "Keep your data safe with SOC 2, SSO, and audit logs"
+      },
+      {
+        "title": "Custom Workflows",
+        "description": "Design workflows that adapt to your enterprise structure"
+      },
+      {
+        "title": "Team Permissions",
+        "description": "Manage access and roles for large teams"
+      },
+      {
+        "title": "Analytics Dashboard",
+        "description": "Gain insights into form performance and team productivity"
+      }
+    ],
+    "cta": {
+      "title": "Need a personalized solution?",
+      "subtitle": "Our team can tailor the platform to your specific needs.",
+      "ctaPrimary": "Book a Call",
+      "ctaSecondary": "Explore Plans"
+    }
+  },
+  "contact": {
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "emailTitle": "Email Us",
+    "emailSubtitle": "We aim to respond within 24 hours",
+    "callTitle": "Call Us",
+    "callSubtitle": "Mon-Fri from 8am to 5pm PST",
+    "chatTitle": "Live Chat",
+    "chatSubtitle": "Typical response in 5 minutes",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sendMessage": "Send Message",
+    "visitTitle": "Visit Our Office",
+    "locationTitle": "Office Location",
+    "locationDetails": "123 Tech Street\nSan Francisco, CA 94105\nUnited States",
+    "hoursTitle": "Business Hours",
+    "hoursDetails": "Monday - Friday: 9:00 AM - 6:00 PM (PST)\nSaturday - Sunday: Closed",
+    "supportTitle": "Global Support",
+    "supportDetails": "We provide support in multiple languages and time zones to ensure you get help when you need it.",
+    "available247": "Available 24/7"
+  },
+  "aiBanner": {
+    "title": "New: AI-Powered Form Creation",
+    "heading": "Create Forms in Minutes",
+    "description": "Choose from our curated collection of templates or let our AI engine create, and publish with ease.",
+    "tryAi": "Try AI Form Creator",
+    "startScratch": "Start from Scratch"
+  },
+  "search": {
+    "placeholder": "Search templates"
+  },
+  "categories": {
+    "title": "Categories",
+    "application": "Application forms",
+    "appointment": "Appointment forms",
+    "booking": "Booking forms",
+    "calculation": "Calculation forms",
+    "checklist": "Checklist forms",
+    "consent": "Consent forms",
+    "consultation": "Consultation forms",
+    "contact": "Contact forms",
+    "content": "Content forms",
+    "donation": "Donation forms",
+    "enrollment": "Enrollment forms",
+    "show": "Show Categories",
+    "hide": "Hide Categories"
+  },
+  "templatePage": {
+    "create": {
+      "ai_banner": "New: AI-Powered Form Creation",
+      "title": "Create Forms in Minutes",
+      "description": "Choose from our curated collection of templates or let our AI engine create, and publish with ease.",
+      "ai_button": "Try AI Form Creator",
+      "scratch": "Start from Scratch"
+    },
+    "categories": {
+      "application": "Application forms",
+      "appointment": "Appointment forms",
+      "booking": "Booking forms",
+      "calculation": "Calculation forms",
+      "checklist": "Checklist forms",
+      "consent": "Consent forms",
+      "consultation": "Consultation forms",
+      "contact": "Contact forms",
+      "content": "Content forms",
+      "donation": "Donation forms",
+      "enrollment": "Enrollment forms",
+      "reports": "Reports",
+      "hr": "HR"
+    },
+    "popular": {
+      "daily_report": {
+        "title": "Daily Report Template",
+        "description": "A daily work report form is a tool for employees to provide a brief summary of their daily activities..."
+      },
+      "employee_evaluation": {
+        "title": "Employee Self Evaluation Template",
+        "description": "An employee self-evaluation form is a document that allows employees to assess their own performance..."
+      },
+      "job_application": {
+        "title": "Job Application Form Template",
+        "description": "A job application form is a document used by employers to gather information from potential candidates..."
+      }
+    },
+    "questions": "questions",
+    "use_template": "Use template",
+    "categories_label": "Categories",
+    "search_placeholder": "Search templates",
+    "hide_categories": "Hide Categories",
+    "show_categories": "Show Categories",
+    "no_templates": "No templates found",
+    "no_templates_hint": "Try adjusting your search or filter to find what you're looking for"
+  },
+  "help": {
+    "hero": {
+      "title": "How can we help you?",
+      "subtitle": "Find answers, documentation, and support to help you succeed with Formify"
+    },
+    "search": {
+      "placeholder": "Search documentation and FAQs..."
+    },
+    "quick_links": {
+      "documentation": {
+        "title": "Documentation",
+        "desc": "Comprehensive guides and tutorials",
+        "action": "Browse docs"
+      },
+      "chat": {
+        "title": "Live Chat",
+        "desc": "Get instant help from our team",
+        "action": "Start chat"
+      },
+      "support": {
+        "title": "Premium Support",
+        "desc": "Priority support for premium users",
+        "action": "Contact us"
+      }
+    },
+    "popular_guides": "Popular Guides",
+    "learn_more": "Learn more",
+    "faq_title": "Frequently Asked Questions",
+    "contact": {
+      "title": "Still need help?",
+      "desc": "Our support team is available 24/7 to help you with any questions or issues",
+      "email": "Email Support",
+      "chat": "Start Live Chat"
+    },
+    "guides": {
+      "getting_started": {
+        "title": "Getting Started",
+        "desc": "Learn the basics of creating forms and surveys"
+      },
+      "form_logic": {
+        "title": "Form Logic",
+        "desc": "Advanced form logic and conditional branching"
+      },
+      "analytics": {
+        "title": "Response Analysis",
+        "desc": "Understanding form responses and analytics"
+      },
+      "ai_features": {
+        "title": "AI Features",
+        "desc": "Leveraging AI to create better forms"
+      },
+      "api": {
+        "title": "API Integration",
+        "desc": "Connect your forms with other services"
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "desc": "Work together on forms and surveys"
+      }
+    },
+    "faqs": {
+      "first": {
+        "question": "How do I create my first form?",
+        "answer": "Click the 'Create Form' button in your dashboard and choose from our templates or start from scratch."
+      },
+      "export": {
+        "question": "Can I export my form responses?",
+        "answer": "Yes, you can export responses in multiple formats including CSV, Excel, and PDF."
+      },
+      "share": {
+        "question": "How do I share my form?",
+        "answer": "After creating your form, click the 'Share' button to get a shareable link or embed code."
+      }
+    },
+    "categories": {
+      "getting_started": "Getting Started",
+      "export": "Data Export",
+      "share": "Sharing"
+    }
+  },
+  "docs": {
+    "search_placeholder": "Search documentation...",
+    "sections": {
+      "getting_started": {
+        "title": "Getting Started",
+        "introduction": "Introduction",
+        "quickstart": "Quickstart",
+        "concepts": "Core Concepts"
+      },
+      "form_building": {
+        "title": "Form Building",
+        "form_basics": "Form Basics",
+        "question_types": "Question Types",
+        "logic_rules": "Logic & Rules",
+        "validation": "Validation"
+      },
+      "ai": {
+        "title": "AI Features",
+        "ai_forms": "AI Form Creation",
+        "ai_analysis": "AI Analysis",
+        "ai_insights": "AI Insights"
+      },
+      "data": {
+        "title": "Data & Analytics",
+        "responses": "Form Responses",
+        "analytics": "Analytics",
+        "exports": "Exporting Data"
+      },
+      "integration": {
+        "title": "Integrations",
+        "api": "API",
+        "webhooks": "Webhooks",
+        "embed": "Embedding"
+      },
+      "security": {
+        "title": "Security",
+        "security": "Security",
+        "privacy": "Privacy",
+        "compliance": "Compliance"
+      }
+    }
+  },
+  "doc": {
+    "last_updated": "Last updated:",
+    "next_page": "Next Page",
+    "related_docs": "Related Docs"
+  },
+  "introduction": {
+    "page_title": "Introduction to Formify",
+    "page_description": "Learn about Formify's powerful form building and data collection platform",
+    "welcome": "Welcome to Formify - the AI-powered form builder that helps you create, manage, and analyze forms with ease. This documentation will guide you through everything you need to know to make the most of our platform.",
+    "what_is_title": "What is Formify?",
+    "what_is_text": "Formify is a comprehensive form building platform that combines the power of artificial intelligence with intuitive design tools to help you create engaging forms, surveys, and questionnaires...",
+    "features_title": "Key Features",
+    "features": [
+      "AI-powered form generation and analysis",
+      "Drag-and-drop form builder",
+      "Advanced logic and conditional branching",
+      "Real-time analytics and insights",
+      "Multiple distribution channels",
+      "Enterprise-grade security",
+      "Extensive API and integration options"
+    ],
+    "audience_title": "Who is it for?",
+    "audience_intro": "Formify is designed for:",
+    "audience": [
+      "Businesses collecting customer feedback",
+      "HR teams managing recruitment processes",
+      "Researchers conducting surveys",
+      "Marketing teams gathering market insights",
+      "Organizations requiring secure data collection"
+    ],
+    "getting_started_title": "Getting Started",
+    "getting_started_intro": "To begin using Formify:",
+    "getting_started": [
+      "Sign up for an account",
+      "Choose your subscription plan",
+      "Create your first form using AI or templates",
+      "Share your form and collect responses",
+      "Analyze results with our powerful dashboard"
+    ],
+    "requirements_title": "Platform Requirements",
+    "requirements_text": "Formify is a cloud-based solution that works in any modern web browser. We recommend using:",
+    "requirements": [
+      "Chrome (latest version)",
+      "Firefox (latest version)",
+      "Safari (latest version)",
+      "Edge (latest version)"
+    ],
+    "next": {
+      "title": "Quick Start Guide"
+    },
+    "related": {
+      "core": "Core Concepts",
+      "subscriptions": "Subscriptions Guide"
+    }
+  },
+  "dropdown": {
+    "account_settings": "Account Settings",
+    "my_dashboard": "My Dashboard",
+    "my_forms": "My Forms",
+    "help": "Help",
+    "contact_us": "Contact Us",
+    "refer": "Refer friends, get rewards",
+    "homepage": "Homepage",
+    "logout": "Log out"
+  },
+  "account": {
+    "returnToDashboard": "Return to Dashboard",
+    "upgrade": "Upgrade",
+    "company": "'s company",
+    "workspace": "'s workspace"
+  },
+  "accountTabs": {
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "team": "Team Members"
+  },
+  "team": {
+    "members": "Team Members",
+    "roles_permissions": "Roles & Permissions",
+    "invites": "Invites",
+    "companies": "Companies",
+    "workspaces": "Workspaces",
+    "you_are": "You are",
+    "no_data": "No data found"
+  },
+  "roles": {
+    "companyOwner": "Company Owner",
+    "workspaceOwner": "Workspace Owner",
+    "editor": "Editor",
+    "viewer": "Viewer",
+    "accountOwner": "Account Owner",
+    "user": "User"
+  },
+  "profile": {
+    "title": "Manage your profile",
+    "general": "General Information",
+    "username": "Username",
+    "email": "Email",
+    "security": "Password & Security",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "placeholder": {
+      "currentPassword": "Enter your current password",
+      "newPassword": "Enter your new password",
+      "confirmPassword": "Confirm your new password"
+    },
+    "save": "Save changes",
+    "delete": "Delete profile",
+    "deleteWarning": "Deleting this profile will remove all associated workspaces, boards, and collaborators.",
+    "successTitle": "Success!",
+    "errorTitle": "Error",
+    "serverError": "Server Error",
+    "tryAgain": "Please try again later.",
+    "errorUpdate": "Error: Cannot update profile.",
+    "deleteSuccess": "Account deleted successfully"
+  },
+  "notifications": {
+    "title": "Notification Preferences",
+    "formSubmissions": {
+      "title": "Form Submissions",
+      "description": "Get notified when someone submits a form"
+    },
+    "teamActivity": {
+      "title": "Team Activity",
+      "description": "Get notified about team member actions"
+    },
+    "formComments": {
+      "title": "Form Comments",
+      "description": "Get notified about form comments and feedback"
+    },
+    "marketingUpdates": {
+      "title": "Marketing Updates",
+      "description": "Receive product updates and newsletters"
+    }
+  },
+  "company": {
+    "name": "Company Name",
+    "workspaceName": "Workspace Name",
+    "forms": "Forms",
+    "members": "Members",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "manage": "Manage",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noEntities": "No {{entity}} yet",
+    "createPrompt": "Create one now to get started!",
+    "alertTitle": "Are you sure?",
+    "alertText": "You won't be able to delete this!",
+    "confirmDelete": "Yes, delete it!"
+  },
+  "team": {
+    "members": "Team Members",
+    "roles": "Roles & Permissions",
+    "invites": "Invites",
+    "companies": "Companies",
+    "workspaces": "Workspaces",
+    "company": "Company",
+    "workspace": "Workspace",
+    "title": "Lead & Manage Your Team",
+    "loading": "Loading...",
+    "error": "An error occurred: {{error}}"
+  },
+  "company": {
+    "name": "Company Name",
+    "workspaceName": "Workspace Name",
+    "forms": "Forms",
+    "members": "Members",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "manage": "Manage",
+    "alertTitle": "Are you sure?",
+    "alertText": "This action cannot be undone.",
+    "confirmDelete": "Yes, delete it!",
+    "noEntities": "No {{entity}} found",
+    "createPrompt": "Start by creating a new {{entity}} to manage your team effectively."
+  },
+  "tabs": {
+    "createCompany": "Create new company",
+    "createWorkspace": "Create new workspace",
+    "inviteMember": "Invite New Member"
+  },
+  "entity": {
+    "company": "Company",
+    "workspace": "Workspace",
+    "edit": "Edit {{type}}",
+    "add": "Add New {{type}}",
+    "nameLabel": "{{type}} Name:",
+    "namePlaceholder": "Enter {{type}} name",
+    "inviteNote": "You'll be able to invite team members after creating the {{type}}",
+    "cancel": "Cancel",
+    "processing": "Processing...",
+    "update": "Update {{type}}"
+  },
+  "dashboard": {
+    "loading": "Loading...",
+    "title": "Analytics Dashboard",
+    "subtitle": "Get insights into your form performance and user engagement",
+    "last7": "Last 7 days",
+    "last30": "Last 30 days",
+    "last90": "Last 90 days",
+    "lastYear": "Last year",
+    "filters": "Filters",
+    "stats": {
+      "totalResponses": "Total Responses",
+      "activeForms": "Active Forms",
+      "avgCompletionRate": "Avg. Completion Rate",
+      "totalUsers": "Total Users"
+    },
+    "charts": {
+      "responseTrends": "Response Trends",
+      "deviceDistribution": "Device Distribution",
+      "formPerformance": "Form Performance",
+      "formName": "Form Name",
+      "responses": "Responses",
+      "growth": "Growth",
+      "actions": "Actions",
+      "viewDetails": "View Details"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "createForm": "Create New Form",
+      "createFormDesc": "Start from scratch or use AI",
+      "viewAnalytics": "View Analytics",
+      "viewAnalyticsDesc": "Check your form performance",
+      "recentResponses": "Recent Responses",
+      "recentResponsesDesc": "View latest submissions",
+      "settings": "Account Settings",
+      "settingsDesc": "Manage your preferences"
+    },
+    "days": {
+      "Mon": "Mon",
+      "Tue": "Tue",
+      "Wed": "Wed",
+      "Thu": "Thu",
+      "Fri": "Fri",
+      "Sat": "Sat",
+      "Sun": "Sun"
+    },
+    "devices": {
+      "Desktop": "Desktop",
+      "Mobile": "Mobile",
+      "Tablet": "Tablet"
+    },
+    "forms": {
+      "Customer_Survey": "Customer Survey",
+      "Employee_Feedback": "Employee Feedback",
+      "Product_Research": "Product Research",
+      "Event_Registration": "Event Registration"
+    }
+  },
+  "invite": {
+    "loading": "Loading...",
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "expired": "Expired",
+    "filterByStatus": "Filter by status:",
+    "all": "All",
+    "company": "Company",
+    "workspace": "Workspace",
+    "receiver": "Receiver",
+    "access": "Access",
+    "sendedAt": "Sent At",
+    "status": "Status",
+    "actions": "Actions",
+    "resend": "Resend",
+    "remove": "Remove",
+    "noInvitations": "No invitations yet",
+    "invitePrompt": "Invite a member to get started"
+  },
+  "refer": {
+    "hero_title": "Share & Earn Rewards",
+    "hero_description": "Invite your friends to Formify and unlock amazing rewards together. The more friends you bring, the bigger the rewards get!",
+    "referralLinkLabel": "Your Unique Referral Link",
+    "copyLink": "Copy Link",
+    "copySuccess": "Referral link copied to clipboard!",
+    "inviteTitle": "Invite Your Friends",
+    "invitePlaceholder": "friend@example.com",
+    "inviteLabel": "Friend's Email Address",
+    "inviteSuccess": "Invitation sent successfully!",
+    "howItWorksTitle": "How It Works",
+    "step1Title": "Share Your Link",
+    "step1Desc": "Share your unique referral link with friends and colleagues",
+    "step2Title": "Friends Sign Up",
+    "step2Desc": "When they sign up using your link, you both get rewarded",
+    "step3Title": "Earn Rewards",
+    "step3Desc": "The more friends you invite, the more rewards you unlock",
+    "rewardsTitle": "Unlock Amazing Rewards",
+    "rewardsDesc": "The more friends you invite, the more rewards you'll unlock. Each tier comes with its own set of exclusive benefits!",
+    "level": "Level",
+    "invited": "Invited",
+    "moreInvites": "{{count}} more invites to unlock!",
+    "startInviting": "Start Inviting",
+    "sendInvite": "Send Invite",
+    "sentInvitations": "Sent Invitations",
+    "reward1": "1 Month Free Pro Plan",
+    "reward3": "3 Months Free Pro Plan",
+    "reward6": "6 Months Free Pro Plan"
+  },
+  "forms": {
+    "formsTitle": "Forms",
+    "search": "Search",
+    "workspaces": "Workspaces",
+    "members": "{{count}} members",
+    "upgrade": "Upgrade",
+    "createSurvey": "Create New Survey to get Started",
+    "selectWorkspace": "Select a workspace to view its content.",
+    "emptyForm": "No form has been created, the form is empty.",
+    "workspaceOf": "'S WORKSPACE",
+    "createWorkspaceTitle": "Create New Workspace",
+    "createWorkspaceDescription": "Create a workspace to organize your forms and collaborate with team members.",
+    "workspaceName": "Workspace Name",
+    "inviteMembersInfo": "You'll be able to invite team members after creating the workspace",
+    "cancel": "Cancel",
+    "create": "Create Workspace",
+    "upgrade": "Upgrade"
+  },
+  "searchFilters": {
+    "searchPlaceholder": "Search forms...",
+    "allStatus": "All Status",
+    "active": "Active",
+    "draft": "Draft",
+    "archived": "Archived",
+    "lastUpdated": "Last Updated",
+    "mostResponses": "Most Responses",
+    "completionRate": "Completion Rate",
+    "live": "Live",
+    "closed": "Closed"
+  },
+  "formCard": {
+    "completion": "Completion",
+    "edited": "Edited {{timeAgo}}",
+    "responses": "{{count}} responses",
+    "closed": "Closed",
+    "live": "Live",
+    "loading": "Loading...",
+    "avgTime": "Avg Time : {{seconds}} s",
+    "seeResults": "See Results",
+    "unavailableTitle": "Unavailable for Sharing",
+    "unavailableMessage": "This form cannot be shared outside of the active period or when it’s closed.",
+    "surveyClosed": "This survey is closed.",
+    "cannotShare": "You cannot share this form because it is no longer active.",
+    "readyToShare": "Your form is ready to share",
+    "shareInstruction": "Share the link directly or embed it on any site.",
+    "shareLink": "Share link",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "sendByEmail": "Send by Email",
+    "emailPlaceholder": "Enter recipient's email",
+    "sendEmail": "Send Email",
+    "emailError": "Please enter an email address.",
+    "emailSuccess": "Email sent successfully!",
+    "emailFail": "❌ Failed to send email."
+  },
+  "formOptions": {
+    "moreOptions": "More options",
+    "edit": "Edit",
+    "closeForm": "Close form",
+    "confirmTitle": "Confirm Closing Form",
+    "confirmMessage": "Are you sure you want to close this form?",
+    "confirmNote": "This action cannot be undone.",
+    "cancel": "Cancel",
+    "closing": "Closing...",
+    "confirmClose": "Yes, Close Form"
+  },
+  "formBuilder": {
+    "back": "Back",
+    "preview": "Preview",
+    "versions": "Versions",
+    "version": "Version",
+    "versionHistory": "Version History",
+    "load": "Load",
+    "saveAsNewVersion": "Save as New Version",
+    "validateVersion": "Validate Version",
+    "unsaved": {
+      "title": "Unsaved Changes",
+      "message": "You have unsaved changes. Are you sure you want to leave? Your changes will be lost.",
+      "stay": "Stay",
+      "leave": "Leave anyway"
+    },
+    "errors": {
+      "publish": "Failed to publish form. Please try again.",
+      "saveVersion": "Failed to save version. Please try again."
+    },
+    "at": "at"
+  },
+  "settings": {
+    "notifications": "Notifications",
+    "urlParameters": "URL parameters",
+    "formBehavior": "Form behavior",
+    "access": "Access",
+    "upgrade": "Upgrade"
+  },
+  "accessPanel": {
+    "title": "Access",
+    "description": "Manage when your form is open or closed.",
+    "closeForm": "Close form",
+    "closeFormDesc": "Close your form to new submissions.",
+    "openDateTitle": "Form open date",
+    "openDateDesc": "Set a date for your form to become available",
+    "expirationDateTitle": "Form expiration date",
+    "expirationDateDesc": "Close form upon reaching a certain date",
+    "selectOpenDate": "Select open date",
+    "selectExpirationDate": "Select expiration date",
+    "saveChanges": "Save changes",
+    "confirmCloseTitle": "Confirm Closing Form",
+    "confirmCloseDesc": "Are you sure you want to close this form? This action cannot be undone.",
+    "yesClose": "Yes, Close Form",
+    "confirmOpenTitle": "Confirm Reopening Form",
+    "confirmOpenDesc": "Are you sure you want to reopen this form? New submissions will be accepted.",
+    "yesOpen": "Yes, Reopen Form",
+    "cancel": "Cancel"
+  },
+  "formBehavior": {
+    "title": "Form behavior",
+    "description": "Global settings to control how your form behaves when used",
+    "cookieConsent": "Cookie consent",
+    "cookieConsentDesc": "Show cookie consent banner to respondents",
+    "rtlSupport": "Right to left",
+    "rtlSupportDesc": "Enable right-to-left text direction",
+    "disableAutoTranslate": "Disable auto-translate",
+    "disableAutoTranslateDesc": "Prevent browsers from offering to translate your form",
+    "allowResume": "Allow resuming partial submissions",
+    "allowResumeDesc": "Let respondents continue from where they left off",
+    "autoJump": "Auto-jump to the next page",
+    "autoJumpDesc": "Automatically advance to next page when all required fields are filled",
+    "showProgressBar": "Show progress bar",
+    "showProgressBarDesc": "Display progress indicator for multi-page forms",
+    "saveChanges": "Save changes"
+  },
+  "urlParams": {
+    "title": "URL parameters",
+    "description": "Personalize your form to the person filling it out, or pre-fill fields with URL parameters.",
+    "name": "Parameter Name",
+    "default": "Default Value",
+    "desc": "Description",
+    "namePlaceholder": "e.g., email",
+    "defaultPlaceholder": "Default value (optional)",
+    "descPlaceholder": "What this parameter is used for",
+    "add": "Add Parameter",
+    "current": "Current Parameters",
+    "example": "Example URL",
+    "quick": "Quick Add",
+    "quickDesc": "Pre-fill the {{paramName}} field"
+  },
+  "notifications.title": "Notifications",
+  "notifications.description": "Configure how and when you receive notifications about form submissions.",
+  "notifications.tabs.general": "General",
+  "notifications.tabs.customEmails": "Custom emails",
+  "notifications.selfNotify.title": "Self-email notifications",
+  "notifications.selfNotify.description": "Get an email whenever your form is submitted",
+  "notifications.respondentNotify.title": "Respondent notifications",
+  "notifications.respondentNotify.description": "Send an email to the person who filled out your form upon submission",
+  "notifications.saveChanges": "Save Changes",
+  "notifications.addTemplate": "Add Email Template",
+  "notifications.template.trigger": "Trigger",
+  "notifications.template.subject": "Subject",
+  "notifications.template.body": "Email Body",
+  "notifications.template.name": "Template Name",
+  "notifications.template.trigger.onSubmit": "On Form Submit",
+  "notifications.template.trigger.onApproval": "On Approval",
+  "notifications.template.trigger.onReject": "On Rejection",
+  "notifications.template.trigger.custom": "Custom Trigger",
+  "notifications.modal.title": "Add Email Template",
+  "notifications.modal.cancel": "Cancel",
+  "notifications.modal.confirm": "Add Template",
+  "notifications.templateTrigger": "Trigger: {{trigger}}",
+  "formResults": {
+    "title": "Form Results",
+    "back": "Back",
+    "responses": "Results",
+    "completion": "In Progress",
+    "dropOff": "Drop-off",
+    "summary": "Summary",
+    "analytics": "AI Analytics",
+    "totalResponses": "Total Responses",
+    "completed": "Completed",
+    "partial": "Partial",
+    "averageResponseTime": "Average Response Time"
+  },
+  "aiAnalysis": {
+    "title": "AI Analysis",
+    "show": "Show Analysis",
+    "hide": "Hide Analysis",
+    "sentiment": "Sentiment Analysis",
+    "positive": "Positive",
+    "neutral": "Neutral",
+    "negative": "Negative",
+    "language": "Language Distribution",
+    "keyInsights": "Key Insights",
+    "insight1": "Most responses are positive (75%)",
+    "insight2": "Average completion time: 2m 34s",
+    "insight3": "Common keywords: \"excellent\", \"helpful\", \"easy to use\"",
+    "langs": {
+      "english": "English",
+      "spanish": "Spanish",
+      "french": "French"
+    }
+  },
+  "completion.completed": "Completed",
+  "completion.partial": "Partial",
+  "completion.abandoned": "Abandoned",
+  "completion.incompleteResponses": "Incomplete Responses",
+  "completion.retargetSelected": "Retarget Selected",
+  "completion.lastActive": "Last Active",
+  "completion.progress": "Progress",
+  "completion.lastPage": "Last Page",
+  "completion.actions": "Actions",
+  "completion.statusDistribution": "Completion Status Distribution",
+  "completion.insightsTitle": "Completion Insights",
+  "completion.keyFindings": "Key Findings",
+  "completion.recommendations": "Recommendations",
+  "completion.completionRate": "{{rate}}% overall completion rate",
+  "completion.avgTime": "Average completion time: {{time}} minutes",
+  "completion.recommendation.progressIndicator": "Add progress indicator",
+  "completion.recommendation.emailReminder": "Implement email reminders for incomplete responses",
+  "completion.email": "Email",
+  "completion.retarget": "Retarget",
+  "tabs": {
+    "editor": "Editor",
+    "theme": "Theme",
+    "results": "Results",
+    "settings": "Settings"
+  }
+}

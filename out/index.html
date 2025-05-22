@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" as="image" href="https://votly.app/public/web/wp-content/themes/Votly-logo-colored.png" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1531339751961-324b4c494be9?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="preload" as="image"
+        href="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" />
+    <link rel="stylesheet" href="/_next/static/css/1db79e4591dba7f9.css" crossorigin="" data-precedence="next" />
+    <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-c28de42b0a7c338a.js"
+        crossorigin="" />
+    <script src="/_next/static/chunks/fd9d1056-54c0ace88d58d253.js" async="" crossorigin=""></script>
+    <script src="/_next/static/chunks/472-168883ed6454b5a3.js" async="" crossorigin=""></script>
+    <script src="/_next/static/chunks/main-app-c7df4e80fb5d49d1.js" async="" crossorigin=""></script>
+    <title>Formify - AI-Powered Form Builder</title>
+    <meta name="description" content="Create beautiful forms in seconds with AI assistance" />
+    <meta name="next-size-adjust" />
+    <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" crossorigin="" noModule=""></script>
+</head>
+
+<body class="__className_d65c78">
+    <div class="min-h-screen flex flex-col">
+        <nav class="bg-white border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex"><a class="flex items-center" href="/"><img
+                                src="https://votly.app/public/web/wp-content/themes/Votly-logo-colored.png" alt="Votly"
+                                class="h-8" /></a></div>
+                    <div class="flex items-center space-x-4"><a
+                            class="text-gray-700 hover:text-indigo-600 px-4 py-2 text-sm font-almarai transition-colors duration-200"
+                            href="/login/">Login</a><a
+                            class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-200 text-sm font-almarai"
+                            href="/signup/">Get Started</a></div>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-grow">
+            <div class="bg-white">
+                <div class="relative isolate">
+                    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+                        <div
+                            class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]">
+                        </div>
+                    </div>
+                    <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+                        <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+                            <div class="mt-24 sm:mt-32 lg:mt-16"><a href="#" class="inline-flex space-x-6"><span
+                                        class="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-almarai leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-500/20">Latest
+                                        Updates</span><span
+                                        class="inline-flex items-center space-x-2 text-sm font-almarai leading-6 text-gray-600"><span>Just
+                                            shipped v1.0</span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-arrow-right h-4 w-4">
+                                            <path d="M5 12h14"></path>
+                                            <path d="m12 5 7 7-7 7"></path>
+                                        </svg></span></a></div>
+                            <h1
+                                class="mt-10 text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight text-gray-900 sm:text-6xl">
+                                Create Forms
+                                with<span class="relative whitespace-nowrap"><svg aria-hidden="true"
+                                        viewBox="0 0 418 42"
+                                        class="absolute left-0 top-2/3 h-[0.58em] w-full fill-indigo-300/70"
+                                        preserveAspectRatio="none">
+                                        <path
+                                            d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
+                                        </path>
+                                    </svg><span class="relative">AI Power</span></span></h1>
+                            <p class="mt-6 text-lg leading-8 text-gray-600">Create beautiful forms in seconds with AI
+                                assistance. Get insights from your data with powerful analytics.</p>
+                            <div class="mt-10 flex items-center gap-x-6"><a
+                                    class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-almarai text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-200 hover:scale-105"
+                                    href="/signup/">Get started</a><a
+                                    class="text-sm font-almarai leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-200"
+                                    href="/templates/">View templates <span aria-hidden="true">→</span></a></div>
+                        </div>
+                        <div
+                            class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none xl:ml-32">
+                            <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
+                                <div
+                                    class="relative rounded-2xl bg-gray-50/80 backdrop-blur-xl shadow-xl ring-1 ring-gray-900/5 p-8">
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-tr from-sky-300 via-indigo-200 to-purple-300 opacity-10 rounded-2xl">
+                                    </div>
+                                    <div class="relative">
+                                        <div class="flex items-center space-x-4 mb-8">
+                                            <div
+                                                class="h-10 w-10 rounded-full bg-indigo-600 flex items-center justify-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-sparkles h-6 w-6 text-white animate-pulse">
+                                                    <path
+                                                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                                                    </path>
+                                                    <path d="M5 3v4"></path>
+                                                    <path d="M19 17v4"></path>
+                                                    <path d="M3 5h4"></path>
+                                                    <path d="M17 19h4"></path>
+                                                </svg>
+                                            </div>
+                                            <div class="flex-1">
+                                                <div class="bg-white rounded-2xl rounded-tl-none p-4 shadow-sm">
+                                                    <p class="text-sm text-gray-600">Let me help you create a form. What
+                                                        type of form would you like?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="bg-white rounded-lg p-6 shadow-sm space-y-4 transform transition-all duration-500 hover:scale-[1.02]">
+                                            <div class="flex items-center justify-between">
+                                                <h3 class="text-lg font-almarai text-gray-900">Customer Feedback Survey
+                                                </h3>
+                                                <div class="flex space-x-2">
+                                                    <div class="h-2 w-2 rounded-full bg-indigo-600 animate-pulse"></div>
+                                                    <div
+                                                        class="h-2 w-2 rounded-full bg-purple-600 animate-pulse delay-100">
+                                                    </div>
+                                                    <div
+                                                        class="h-2 w-2 rounded-full bg-pink-600 animate-pulse delay-200">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="space-y-4">
+                                                <div
+                                                    class="h-10 bg-gray-50 rounded-md border border-gray-200 animate-pulse">
+                                                </div>
+                                                <div
+                                                    class="h-24 bg-gray-50 rounded-md border border-gray-200 animate-pulse">
+                                                </div>
+                                                <div class="grid grid-cols-2 gap-4">
+                                                    <div
+                                                        class="h-10 bg-gray-50 rounded-md border border-gray-200 animate-pulse">
+                                                    </div>
+                                                    <div
+                                                        class="h-10 bg-gray-50 rounded-md border border-gray-200 animate-pulse">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid grid-cols-3 gap-3">
+                                                <div
+                                                    class="bg-white px-3 py-2 rounded-full text-sm text-gray-600 border border-gray-200 flex items-center justify-center hover:border-indigo-500 hover:text-indigo-600 cursor-pointer transition-colors duration-200">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="lucide lucide-sparkles h-4 w-4 mr-2 text-indigo-500">
+                                                        <path
+                                                            d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                                                        </path>
+                                                        <path d="M5 3v4"></path>
+                                                        <path d="M19 17v4"></path>
+                                                        <path d="M3 5h4"></path>
+                                                        <path d="M17 19h4"></path>
+                                                    </svg>Add Rating Question
+                                                </div>
+                                                <div
+                                                    class="bg-white px-3 py-2 rounded-full text-sm text-gray-600 border border-gray-200 flex items-center justify-center hover:border-indigo-500 hover:text-indigo-600 cursor-pointer transition-colors duration-200">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="lucide lucide-sparkles h-4 w-4 mr-2 text-indigo-500">
+                                                        <path
+                                                            d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                                                        </path>
+                                                        <path d="M5 3v4"></path>
+                                                        <path d="M19 17v4"></path>
+                                                        <path d="M3 5h4"></path>
+                                                        <path d="M17 19h4"></path>
+                                                    </svg>Add NPS Score
+                                                </div>
+                                                <div
+                                                    class="bg-white px-3 py-2 rounded-full text-sm text-gray-600 border border-gray-200 flex items-center justify-center hover:border-indigo-500 hover:text-indigo-600 cursor-pointer transition-colors duration-200">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="lucide lucide-sparkles h-4 w-4 mr-2 text-indigo-500">
+                                                        <path
+                                                            d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                                                        </path>
+                                                        <path d="M5 3v4"></path>
+                                                        <path d="M19 17v4"></path>
+                                                        <path d="M3 5h4"></path>
+                                                        <path d="M17 19h4"></path>
+                                                    </svg>Add Comments
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg p-4 text-white">
+                                                <div class="flex items-center justify-between mb-4"><span
+                                                        class="text-sm font-almarai">AI Analysis</span>
+                                                    <div class="flex items-center space-x-1">
+                                                        <div class="h-1.5 w-1.5 rounded-full bg-white/50 animate-pulse">
+                                                        </div>
+                                                        <div
+                                                            class="h-1.5 w-1.5 rounded-full bg-white/70 animate-pulse delay-100">
+                                                        </div>
+                                                        <div
+                                                            class="h-1.5 w-1.5 rounded-full bg-white/90 animate-pulse delay-200">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="space-y-2">
+                                                    <div class="h-2 bg-white/20 rounded-full w-3/4 animate-pulse"></div>
+                                                    <div
+                                                        class="h-2 bg-white/20 rounded-full w-1/2 animate-pulse delay-75">
+                                                    </div>
+                                                    <div
+                                                        class="h-2 bg-white/20 rounded-full w-2/3 animate-pulse delay-150">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto max-w-7xl px-6 lg:px-8 py-24">
+                    <div class="mx-auto max-w-2xl lg:text-center">
+                        <h2 class="text-base font-almarai leading-7 text-indigo-600">Products</h2>
+                        <p
+                            class="mt-2 text-3xl   font-bold font-almarai font-almarai  font-almarai tracking-tight text-gray-900 sm:text-4xl">
+                            Everything you need
+                            to collect and analyze data</p>
+                    </div>
+                    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Form Builder" class="h-full w-full object-cover object-center" />
+                                </div>
+                                <h3 class="mt-6 text-lg font-almarai text-gray-900"><span
+                                        class="absolute inset-0"></span>Form Builder</h3>
+                                <p class="text-base text-gray-500">Create beautiful, responsive forms with our
+                                    drag-and-drop builder</p>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Survey Builder" class="h-full w-full object-cover object-center" />
+                                </div>
+                                <h3 class="mt-6 text-lg font-almarai text-gray-900"><span
+                                        class="absolute inset-0"></span>Survey Builder</h3>
+                                <p class="text-base text-gray-500">Design comprehensive surveys with advanced logic and
+                                    branching</p>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Quiz Maker" class="h-full w-full object-cover object-center" />
+                                </div>
+                                <h3 class="mt-6 text-lg font-almarai text-gray-900"><span
+                                        class="absolute inset-0"></span>Quiz Maker</h3>
+                                <p class="text-base text-gray-500">Build engaging quizzes with scoring and instant
+                                    feedback</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto max-w-7xl px-6 lg:px-8 py-24 bg-gray-50">
+                    <div class="mx-auto max-w-2xl lg:text-center">
+                        <h2 class="text-base font-almarai leading-7 text-indigo-600">Powerful Features</h2>
+                        <p
+                            class="mt-2 text-3xl   font-bold font-almarai font-almarai  font-almarai tracking-tight text-gray-900 sm:text-4xl">
+                            Everything you need
+                            to create amazing forms</p>
+                        <p class="mt-6 text-lg leading-8 text-gray-600">Build forms that convert, collect data that
+                            matters, and get insights that drive results.</p>
+                    </div>
+                    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                        <div class="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-purple-100 text-purple-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-brain h-6 w-6">
+                                        <path
+                                            d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z">
+                                        </path>
+                                        <path
+                                            d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z">
+                                        </path>
+                                        <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path>
+                                        <path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path>
+                                        <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path>
+                                        <path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path>
+                                        <path d="M19.938 10.5a4 4 0 0 1 .585.396"></path>
+                                        <path d="M6 18a4 4 0 0 1-1.967-.516"></path>
+                                        <path d="M19.967 17.484A4 4 0 0 1 18 18"></path>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">AI-Powered Form Creation</h3>
+                                <p class="mt-2 text-base text-gray-600">Create professional forms in seconds using our
+                                    advanced AI assistant.</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-blue-100 text-blue-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-wand2 h-6 w-6">
+                                        <path
+                                            d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72Z">
+                                        </path>
+                                        <path d="m14 7 3 3"></path>
+                                        <path d="M5 6v4"></path>
+                                        <path d="M19 14v4"></path>
+                                        <path d="M10 2v2"></path>
+                                        <path d="M7 8H3"></path>
+                                        <path d="M21 16h-4"></path>
+                                        <path d="M11 3H9"></path>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">Smart Suggestions</h3>
+                                <p class="mt-2 text-base text-gray-600">Get intelligent recommendations for questions
+                                    and flow based on your form type.</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-green-100 text-green-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-bar-chart2 h-6 w-6">
+                                        <line x1="18" x2="18" y1="20" y2="10"></line>
+                                        <line x1="12" x2="12" y1="20" y2="4"></line>
+                                        <line x1="6" x2="6" y1="20" y2="14"></line>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">Advanced Analytics</h3>
+                                <p class="mt-2 text-base text-gray-600">Gain deep insights from responses with our
+                                    powerful analytics tools.</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-indigo-100 text-indigo-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-globe h-6 w-6">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                        <path d="M2 12h20"></path>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">Global Reach</h3>
+                                <p class="mt-2 text-base text-gray-600">Support for multiple languages and regional
+                                    formats.</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-red-100 text-red-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-shield h-6 w-6">
+                                        <path
+                                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                        </path>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">Enterprise Security</h3>
+                                <p class="mt-2 text-base text-gray-600">Bank-level security with data encryption and
+                                    compliance features.</p>
+                            </div>
+                            <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                                <div class="rounded-lg p-2 bg-yellow-100 text-yellow-600 w-fit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-file-text h-6 w-6">
+                                        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                                        <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                                        <path d="M10 9H8"></path>
+                                        <path d="M16 13H8"></path>
+                                        <path d="M16 17H8"></path>
+                                    </svg></div>
+                                <h3 class="mt-4 text-lg font-almarai text-gray-900">Template Library</h3>
+                                <p class="mt-2 text-base text-gray-600">Start quickly with our extensive collection of
+                                    pre-built templates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto max-w-7xl px-6 lg:px-8 py-24">
+                    <div class="mx-auto max-w-2xl lg:text-center">
+                        <h2 class="text-base font-almarai leading-7 text-indigo-600">Industries</h2>
+                        <p
+                            class="mt-2 text-3xl   font-bold font-almarai font-almarai  font-almarai tracking-tight text-gray-900 sm:text-4xl">
+                            Trusted across
+                            industries</p>
+                        <p class="mt-6 text-lg leading-8 text-gray-600">Tailored solutions for your specific industry
+                            needs</p>
+                    </div>
+                    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Financial Services" class="h-full w-full object-cover object-center" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                                        <div class="rounded-lg p-2 bg-green-100 text-green-600 w-fit mb-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-building h-6 w-6">
+                                                <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                                                <path d="M9 22v-4h6v4"></path>
+                                                <path d="M8 6h.01"></path>
+                                                <path d="M16 6h.01"></path>
+                                                <path d="M12 6h.01"></path>
+                                                <path d="M12 10h.01"></path>
+                                                <path d="M12 14h.01"></path>
+                                                <path d="M16 10h.01"></path>
+                                                <path d="M16 14h.01"></path>
+                                                <path d="M8 10h.01"></path>
+                                                <path d="M8 14h.01"></path>
+                                            </svg></div>
+                                        <h3 class="text-xl font-almarai text-white">Financial Services</h3>
+                                        <p class="mt-2 text-sm text-gray-200">Secure forms for financial data collection
+                                            and processing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Healthcare" class="h-full w-full object-cover object-center" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                                        <div class="rounded-lg p-2 bg-blue-100 text-blue-600 w-fit mb-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-stethoscope h-6 w-6">
+                                                <path
+                                                    d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3">
+                                                </path>
+                                                <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+                                                <circle cx="20" cy="10" r="2"></circle>
+                                            </svg></div>
+                                        <h3 class="text-xl font-almarai text-white">Healthcare</h3>
+                                        <p class="mt-2 text-sm text-gray-200">HIPAA-compliant forms for patient data and
+                                            medical surveys</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Real Estate" class="h-full w-full object-cover object-center" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                                        <div class="rounded-lg p-2 bg-orange-100 text-orange-600 w-fit mb-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-home h-6 w-6">
+                                                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                            </svg></div>
+                                        <h3 class="text-xl font-almarai text-white">Real Estate</h3>
+                                        <p class="mt-2 text-sm text-gray-200">Property listing forms and tenant
+                                            applications</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1531339751961-324b4c494be9?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Government" class="h-full w-full object-cover object-center" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                                        <div class="rounded-lg p-2 bg-red-100 text-red-600 w-fit mb-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-landmark h-6 w-6">
+                                                <line x1="3" x2="21" y1="22" y2="22"></line>
+                                                <line x1="6" x2="6" y1="18" y2="11"></line>
+                                                <line x1="10" x2="10" y1="18" y2="11"></line>
+                                                <line x1="14" x2="14" y1="18" y2="11"></line>
+                                                <line x1="18" x2="18" y1="18" y2="11"></line>
+                                                <polygon points="12 2 20 7 4 7"></polygon>
+                                            </svg></div>
+                                        <h3 class="text-xl font-almarai text-white">Government</h3>
+                                        <p class="mt-2 text-sm text-gray-200">Compliance-focused forms for public
+                                            services</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="relative group">
+                                <div
+                                    class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+                                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Non-Profit" class="h-full w-full object-cover object-center" />
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                                        <div class="rounded-lg p-2 bg-purple-100 text-purple-600 w-fit mb-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-building2 h-6 w-6">
+                                                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+                                                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+                                                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+                                                <path d="M10 6h4"></path>
+                                                <path d="M10 10h4"></path>
+                                                <path d="M10 14h4"></path>
+                                                <path d="M10 18h4"></path>
+                                            </svg></div>
+                                        <h3 class="text-xl font-almarai text-white">Non-Profit</h3>
+                                        <p class="mt-2 text-sm text-gray-200">Donation forms and volunteer registration
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white py-24 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <div class="mx-auto max-w-4xl text-center">
+                            <h2 class="text-base font-almarai leading-7 text-indigo-600">Pricing</h2>
+                            <p
+                                class="mt-2 text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight text-gray-900 sm:text-5xl">
+                                Choose the right
+                                plan for you</p>
+                            <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">Start with our free plan
+                                and scale as you grow. All plans include a 14-day free trial.</p>
+                        </div>
+                        <div
+                            class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                            <div
+                                class="relative rounded-3xl p-8 ring-1 bg-white text-gray-900 ring-gray-200 lg:rounded-r-none ">
+                                <div class="flex flex-col justify-between h-full pt-4">
+                                    <div>
+                                        <div class="flex items-center justify-between gap-x-4">
+                                            <h3 class="text-lg font-almarai leading-8">Free</h3>
+                                        </div>
+                                        <p class="mt-6 flex items-baseline gap-x-1"><span
+                                                class="text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight">$<!-- -->0</span>
+                                        </p>
+                                        <ul class="mt-8 space-y-3">
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Limited surveys and respondents</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Basic question types</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Email verification</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Basic security features</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Limited reporting (Excel, CSV)</span></li>
+                                        </ul>
+                                    </div><a
+                                        class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-almarai leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-600 text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+                                        href="/signup/">Start for free</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative rounded-3xl p-8 ring-1 bg-gray-900 text-white ring-gray-900 lg:z-10 lg:rounded-l-none lg:rounded-r-none  ">
+                                <p
+                                    class="absolute -top-3 left-0 right-0 mx-auto w-32 rounded-full bg-indigo-600 px-3 py-1 text-center text-sm font-almarai text-white">
+                                    Most popular</p>
+                                <div class="flex flex-col justify-between h-full pt-4">
+                                    <div>
+                                        <div class="flex items-center justify-between gap-x-4">
+                                            <h3 class="text-lg font-almarai leading-8">Basic</h3>
+                                        </div>
+                                        <p class="mt-6 flex items-baseline gap-x-1"><span
+                                                class="text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight">$<!-- -->49</span><span
+                                                class="text-gray-300">/month</span></p>
+                                        <ul class="mt-8 space-y-3">
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Unlimited surveys &amp; respondents</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Advanced question types and logic</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Email/SMS campaigns</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>A/B testing</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Social media integration</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Custom email templates</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-400">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Enhanced reporting</span></li>
+                                        </ul>
+                                    </div><a
+                                        class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-almarai leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-600 text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+                                        href="/signup/?plan=basic">Start free trial</a>
+                                </div>
+                            </div>
+                            <div class="relative rounded-3xl p-8 ring-1 bg-white text-gray-900 ring-gray-200  ">
+                                <div class="flex flex-col justify-between h-full pt-4">
+                                    <div>
+                                        <div class="flex items-center justify-between gap-x-4">
+                                            <h3 class="text-lg font-almarai leading-8">Advanced</h3>
+                                        </div>
+                                        <p class="mt-6 flex items-baseline gap-x-1"><span
+                                                class="text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight">$<!-- -->99</span><span
+                                                class="text-gray-500">/month</span></p>
+                                        <ul class="mt-8 space-y-3">
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Full survey logic</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>AI-generated questions</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Conversational questions</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Full reporting suite</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Multi-language (2 languages)</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>SMS/Email with A/B testing</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>TURF &amp; NPS analysis</span></li>
+                                        </ul>
+                                    </div><a
+                                        class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-almarai leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-600 text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+                                        href="/signup/?plan=advanced">Start free trial</a>
+                                </div>
+                            </div>
+                            <div
+                                class="relative rounded-3xl p-8 ring-1 bg-white text-gray-900 ring-gray-200  lg:rounded-l-none">
+                                <div class="flex flex-col justify-between h-full pt-4">
+                                    <div>
+                                        <div class="flex items-center justify-between gap-x-4">
+                                            <h3 class="text-lg font-almarai leading-8">Premium</h3>
+                                        </div>
+                                        <p class="mt-6 flex items-baseline gap-x-1"><span
+                                                class="text-4xl   font-bold font-almarai font-almarai  font-almarai tracking-tight">$<!-- -->199</span><span
+                                                class="text-gray-500">/month</span></p>
+                                        <ul class="mt-8 space-y-3">
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>All features unlocked</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Unlimited users &amp; languages</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Advanced integrations</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Dynamic real-time reporting</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Role-based access control</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>Full API access</span></li>
+                                            <li class="flex gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="lucide lucide-check h-6 w-5 flex-none text-indigo-600">
+                                                    <path d="M20 6 9 17l-5-5"></path>
+                                                </svg><span>GDPR compliance</span></li>
+                                        </ul>
+                                    </div><a
+                                        class="mt-8 block rounded-md px-3 py-2 text-center text-sm font-almarai leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-indigo-600 text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+                                        href="/contact/">Contact sales</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-24">
+                            <h3
+                                class="text-2xl   font-bold font-almarai font-almarai  font-almarai text-gray-900 text-center mb-12">
+                                Compare Plan
+                                Features</h3>
+                            <div class="overflow-x-auto">
+                                <table class="w-full">
+                                    <thead>
+                                        <tr class="border-t border-gray-200">
+                                            <th class="py-5 px-4 text-left text-sm font-almarai text-gray-900">Features
+                                            </th>
+                                            <th class="px-4 py-5 text-left text-sm font-almarai text-gray-900">Free
+                                            </th>
+                                            <th class="px-4 py-5 text-left text-sm font-almarai text-gray-900">Basic
+                                            </th>
+                                            <th class="px-4 py-5 text-left text-sm font-almarai text-gray-900">Advanced
+                                            </th>
+                                            <th class="px-4 py-5 text-left text-sm font-almarai text-gray-900">Premium
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-200">
+                                        <tr>
+                                            <td class="py-5 px-4 text-sm text-gray-500">Survey Creation</td>
+                                            <td class="px-4 py-5 text-sm">Basic</td>
+                                            <td class="px-4 py-5 text-sm">Advanced</td>
+                                            <td class="px-4 py-5 text-sm">Full Logic</td>
+                                            <td class="px-4 py-5 text-sm">Enterprise</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-5 px-4 text-sm text-gray-500">Response Limit</td>
+                                            <td class="px-4 py-5 text-sm">100/mo</td>
+                                            <td class="px-4 py-5 text-sm">Unlimited</td>
+                                            <td class="px-4 py-5 text-sm">Unlimited</td>
+                                            <td class="px-4 py-5 text-sm">Unlimited</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-5 px-4 text-sm text-gray-500">Question Types</td>
+                                            <td class="px-4 py-5 text-sm">Basic</td>
+                                            <td class="px-4 py-5 text-sm">Advanced</td>
+                                            <td class="px-4 py-5 text-sm">All Types</td>
+                                            <td class="px-4 py-5 text-sm">Custom Types</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-5 px-4 text-sm text-gray-500">AI Features</td>
+                                            <td class="px-4 py-5 text-sm">—</td>
+                                            <td class="px-4 py-5 text-sm">Basic</td>
+                                            <td class="px-4 py-5 text-sm">Advanced</td>
+                                            <td class="px-4 py-5 text-sm">Enterprise</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-5 px-4 text-sm text-gray-500">Analytics</td>
+                                            <td class="px-4 py-5 text-sm">Basic</td>
+                                            <td class="px-4 py-5 text-sm">Enhanced</td>
+                                            <td class="px-4 py-5 text-sm">Advanced</td>
+                                            <td class="px-4 py-5 text-sm">Custom</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Product</h3>
+                        <ul class="mt-4 space-y-3">
+                            <li><a class="footer-link" href="/pricing/">Pricing</a></li>
+                            <li><a class="footer-link" href="/templates/">Templates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Support</h3>
+                        <ul class="mt-4 space-y-3">
+                            <li><a class="footer-link" href="/help/">Help Center</a></li>
+                            <li><a class="footer-link" href="/contact/">Contact</a></li>
+                            <li><a class="footer-link" href="/about/">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Legal</h3>
+                        <ul class="mt-4 space-y-3">
+                            <li><a class="footer-link" href="/legal/terms/">Terms of Service</a></li>
+                            <li><a class="footer-link" href="/legal/privacy/">Privacy Policy</a></li>
+                            <li><a class="footer-link" href="/legal/cookies/">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-16 pt-8 border-t border-gray-200">
+                    <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                        <div class="flex items-center space-x-4">
+                            <p class="footer-copyright">© <!-- -->2024<!-- --> Votly. All rights reserved.</p>
+                        </div>
+                        <div class="flex space-x-6"><a href="https://github.com" target="_blank"
+                                rel="noopener noreferrer" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-github footer-social-icon">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                    </path>
+                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                </svg></a><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                                class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-twitter footer-social-icon">
+                                    <path
+                                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                                    </path>
+                                </svg></a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-linkedin footer-social-icon">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect width="4" height="12" x="2" y="9"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/_next/static/chunks/webpack-c28de42b0a7c338a.js" crossorigin="" async=""></script>
+    <script>(self.__next_f = self.__next_f || []).push([0]); self.__next_f.push([2, null])</script>
+    <script>self.__next_f.push([1, "1:HL[\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/1db79e4591dba7f9.css\",\"style\",{\"crossOrigin\":\"\"}]\n0:\"$L3\"\n"])</script>
+    <script>self.__next_f.push([1, "4:I[3728,[],\"\"]\n6:I[9928,[],\"\"]\n7:I[5888,[\"326\",\"static/chunks/326-1523f83b0bee3971.js\",\"185\",\"static/chunks/app/layout-ef386b975683c947.js\"],\"AuthProvider\"]\n8:I[3192,[\"326\",\"static/chunks/326-1523f83b0bee3971.js\",\"185\",\"static/chunks/app/layout-ef386b975683c947.js\"],\"Layout\"]\n9:I[6954,[],\"\"]\na:I[7264,[],\"\"]\nb:I[8326,[\"326\",\"static/chunks/326-1523f83b0bee3971.js\",\"160\",\"static/chunks/app/not-found-96228f450829da42.js\"],\"\"]\nd:I[8297,[],\"\"]\ne:I[8484,[\"326\",\"static/chunks/326-1523f83b0bee3971.js\",\"931\",\"static"])</script>
+    <script>self.__next_f.push([1, "/chunks/app/page-952474ba8aec38ef.js\"],\"\"]\n"])</script>
+    <script>self.__next_f.push([1, "3:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/1db79e4591dba7f9.css\",\"precedence\":\"next\",\"crossOrigin\":\"\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"KBR14fMjLCDs5q-ngutXy\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[false,\"$L5\"],\"globalErrorComponent\":\"$6\",\"children\":[null,[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__className_d65c78\",\"children\":[\"$\",\"$L7\",null,{\"children\":[\"$\",\"$L8\",null,{\"children\":[\"$\",\"$L9\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$La\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[\"$\",\"div\",null,{\"className\":\"min-h-screen bg-gray-50 flex items-center justify-center px-4 sm:px-6 lg:px-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-md w-full space-y-8 text-center\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h1\",null,{\"className\":\"text-6xl   font-bold font-almarai font-almarai  font-almarai text-indigo-600\",\"children\":\"404\"}],[\"$\",\"h2\",null,{\"className\":\"mt-6 text-3xl   font-bold font-almarai font-almarai  font-almarai text-gray-900\",\"children\":\"Page not found\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm text-gray-600\",\"children\":\"Sorry, we couldn't find the page you're looking for.\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-8\",\"children\":[\"$\",\"$Lb\",null,{\"href\":\"/\",\"className\":\"inline-flex items-center px-4 py-2 border border-transparent text-base font-almarai rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700\",\"children\":\"Go back home\"}]}]]}]}],\"notFoundStyles\":[],\"childProp\":{\"current\":[\"$Lc\",[\"$\",\"$Ld\",null,{\"propsForComponent\":{\"params\":{}},\"Component\":\"$e\",\"isStaticGeneration\":true}],null],\"segment\":\"__PAGE__\"},\"styles\":[]}]}]}]}]}],null]}]]\n"])</script>
+    <script>self.__next_f.push([1, "5:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Formify - AI-Powered Form Builder\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Create beautiful forms in seconds with AI assistance\"}],[\"$\",\"meta\",\"3\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"4\",{\"name\":\"next-size-adjust\"}]]\nc:null\n"])</script>
+</body>
+
+</html>
