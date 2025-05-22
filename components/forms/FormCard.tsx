@@ -57,7 +57,7 @@ export function FormCard({
   const handleShareClick = async (formId: string) => {
     // Ajout de async
     try {
-      const res = await axios.get(`http://localhost:5050/getsurvey/${formId}`);
+      const res = await axios.get(`https://swbackstg.vercel.app/getsurvey/${formId}`);
 
       setIsClosed(res.data.isClosed);
       setOpenDate(res.data.openDate ? new Date(res.data.openDate) : null);
@@ -116,7 +116,7 @@ export function FormCard({
 
     try {
       const response = await axios.post(
-        `http://localhost:5050/publish_survey/${formId}`,
+        `https://swbackstg.vercel.app/publish_survey/${formId}`,
         {
           email,
         }

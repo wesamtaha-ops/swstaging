@@ -16,7 +16,7 @@ const Subscribe: React.FC = () => {
     if (plan) {
 
 
-      axios.get("http://localhost:5050/subscribe", {
+      axios.get("https://swbackstg.vercel.app/subscribe", {
 
         params: { plan, userId, userEmail },
       })

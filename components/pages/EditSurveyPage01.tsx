@@ -136,7 +136,7 @@ export default function FormBuilder() {
         const fetchSurvey = async () => {
           try {
             const { data } = await axios.get<SurveyData>(
-              `http://localhost:5050/getsurvey/${id}`
+              `https://swbackstg.vercel.app/getsurvey/${id}`
             );
 
             if (!data || !data.json) {
@@ -192,7 +192,7 @@ export default function FormBuilder() {
         // };
 
         const { data } = await axios.get(
-          `http://localhost:5050/survey_versions/versions/${id}`
+          `https://swbackstg.vercel.app/survey_versions/versions/${id}`
         );
 
         setVersions(data);
@@ -224,7 +224,7 @@ export default function FormBuilder() {
 
     try {
       await axios.put(
-        ` http://localhost:5050/update_survey/${id}`,
+        ` https://swbackstg.vercel.app/update_survey/${id}`,
         updatedSurvey
       );
 

@@ -92,7 +92,7 @@ const Pricing = () => {
     const fetchuser = async () => {
       try {
         const { data } = await axios.get(
-          ` http://localhost:5050/user/plan/${user?._id}`
+          ` https://swbackstg.vercel.app/user/plan/${user?._id}`
         );
         console.log(data, "data");
         setPlan(data.plan);

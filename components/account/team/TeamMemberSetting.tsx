@@ -424,7 +424,7 @@ function TeamMemberSetting({
     if (!selectedAdminId || !adminToDelete) return;
 
     try {
-      await axios.put("http://localhost:5050/user/update-role", {
+      await axios.put("https://swbackstg.vercel.app/user/update-role", {
         userId: selectedAdminId,
         role: ownerRole,
       });

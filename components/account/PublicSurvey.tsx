@@ -41,7 +41,7 @@ const PublicSurvey: React.FC = () => {
 
       try {
         const res = await axios.get(
-          `http://localhost:5050/survey/get_progress/${id}/${userEmail}`
+          `https://swbackstg.vercel.app/survey/get_progress/${id}/${userEmail}`
         );
         if (res.data && res.data.progress !== undefined) {
           setUserProgress(res.data.progress);
@@ -64,7 +64,7 @@ const PublicSurvey: React.FC = () => {
   useEffect(() => {
     const fetchSurvey = async () => {
       try {
-        const res = await axios.get(`http://localhost:5050/getsurvey/${id} `);
+        const res = await axios.get(`https://swbackstg.vercel.app/getsurvey/${id} `);
         const data: SurveyData = res.data;
         console.log("🔹 JSON du formulaire reçu :", data);
         if (!data?.json?.pages?.length) {
@@ -133,7 +133,7 @@ const PublicSurvey: React.FC = () => {
 
     try {
       await axios.post(
-        "http://localhost:5050/survey/update_progress",
+        "https://swbackstg.vercel.app/survey/update_progress",
         {
           surveyId: id,
           responses,
@@ -163,7 +163,7 @@ const PublicSurvey: React.FC = () => {
     setCompletionRate(100); // Time in seconds
     try {
       await axios.post(
-        "http://localhost:5050/survey/update_progress",
+        "https://swbackstg.vercel.app/survey/update_progress",
 
         {
           surveyId: id,
@@ -174,7 +174,7 @@ const PublicSurvey: React.FC = () => {
         }
       );
       const res = await fetch(
-        ` http://localhost:5050/submit_survey/${id}/response`,
+        ` https://swbackstg.vercel.app/submit_survey/${id}/response`,
 
         {
           method: "POST",

@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Configuration d'Axios
 const api = axios.create({
-  baseURL: "http://localhost:5050",
+  baseURL: "https://swbackstg.vercel.app",
   withCredentials: true,
 });
 
@@ -22,7 +22,7 @@ api.interceptors.response.use(
 
     
         const refreshResponse = await axios.post(
-          "http://localhost:5050/user/refresh-token",
+          "https://swbackstg.vercel.app/user/refresh-token",
           {},
           { withCredentials: true }
         );

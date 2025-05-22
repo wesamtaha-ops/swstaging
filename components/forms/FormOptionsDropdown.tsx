@@ -25,7 +25,7 @@ export function FormOptionsDropdown({
     setLoading(true);
     try {
       const response = await fetch(
-        `http://localhost:5050/close_survey/${idForm}/close`,
+        `https://swbackstg.vercel.app/close_survey/${idForm}/close`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },

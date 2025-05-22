@@ -106,7 +106,7 @@ export default function FormResults() {
     const fetchs = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5050/getsurvey/${id}`
+          `https://swbackstg.vercel.app/getsurvey/${id}`
         );
         setSurveys(res.data)
 
@@ -126,7 +126,7 @@ export default function FormResults() {
     const fetchResponseCount = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5050/survey/${id}/response-count`
+          `https://swbackstg.vercel.app/survey/${id}/response-count`
         );
         setResponseCount(res.data.responseCount);
       } catch (err) {
@@ -145,7 +145,7 @@ export default function FormResults() {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get(`http://localhost:5050/survey/${id}/stats`);
+        const res = await axios.get(`https://swbackstg.vercel.app/survey/${id}/stats`);
         setStats(res.data);
         console.log(res.data);
       } catch (err) {
@@ -163,7 +163,7 @@ export default function FormResults() {
     const fetchResponses = async () => {
       try {
         const res = await axios.get<ResponseDetails[]>(
-          `http://localhost:5050/submit_survey/responses/${id}`
+          `https://swbackstg.vercel.app/submit_survey/responses/${id}`
         );
         const data = res.data;
 

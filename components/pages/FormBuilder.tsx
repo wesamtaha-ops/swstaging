@@ -85,7 +85,7 @@ export default function FormBuilder() {
       if (!formId || creator) return;
 
       try {
-        const res = await fetch(`http://localhost:5050/getsurvey/${formId}`);
+        const res = await fetch(`https://swbackstg.vercel.app/getsurvey/${formId}`);
         const data = await res.json();
 
         if (!data || !data.json) return;
@@ -235,7 +235,7 @@ export default function FormBuilder() {
       workspaceId: workspaceId,
     };
     try {
-      const response = await fetch("http://localhost:5050/create_survey", {
+      const response = await fetch("https://swbackstg.vercel.app/create_survey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(surveyData),

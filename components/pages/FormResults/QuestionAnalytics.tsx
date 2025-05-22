@@ -178,7 +178,7 @@ export function QuestionAnalytics({ responses, stats }: CompletionTabProps) {
     const fetchAverageScores = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5050/survey/${id}/average-scores`,
+          `https://swbackstg.vercel.app/survey/${id}/average-scores`,
 
           { withCredentials: true }
         );

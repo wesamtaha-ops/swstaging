@@ -20,7 +20,7 @@ const AcceptInvitation: React.FC = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:5050/invitations/accept",
+          "https://swbackstg.vercel.app/invitations/accept",
           { token }
         );
 

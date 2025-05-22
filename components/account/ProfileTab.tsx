@@ -56,7 +56,7 @@ export function ProfileTab() {
     }
 
     try {
-      const response = await fetch(`http://localhost:5050/user/put/${user?.email}`, {
+      const response = await fetch(`https://swbackstg.vercel.app/user/put/${user?.email}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         credentials: "include",

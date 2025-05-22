@@ -91,7 +91,7 @@ const SurveyR: React.FC = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get(`http://localhost:5050/survey/${id}/stats`);
+        const res = await axios.get(`https://swbackstg.vercel.app/survey/${id}/stats`);
         setStats(res.data);
         console.log(res.data);
       } catch (err) {
@@ -144,7 +144,7 @@ const SurveyR: React.FC = () => {
     const fetchResponseCount = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5050/survey/${id}/response-count`
+          `https://swbackstg.vercel.app/survey/${id}/response-count`
         );
         setResponseCount(res.data.responseCount);
       } catch (err) {
@@ -162,7 +162,7 @@ const SurveyR: React.FC = () => {
     const fetchResponses = async () => {
       try {
         const res = await axios.get<Response[]>(
-          `http://localhost:5050/submit_survey/responses/${id}`
+          `https://swbackstg.vercel.app/submit_survey/responses/${id}`
         );
         const data = res.data;
         console.log(data, "dataaaaglobal");
@@ -303,7 +303,7 @@ const SurveyR: React.FC = () => {
     setLoadingRetarget(email); // 🟡 Active l'animation pour ce bouton
 
     try {
-      await axios.post("http://localhost:5050/retarget_survey", {
+      await axios.post("https://swbackstg.vercel.app/retarget_survey", {
         email,
         surveyID,
         progress,

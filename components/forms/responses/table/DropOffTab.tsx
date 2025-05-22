@@ -32,7 +32,7 @@ export function DropOffTab() {
 
   useEffect(() => {
     axios
-      .get<StatItem[]>(`http://localhost:5050/survey/${id}/dropoff-questions`)
+      .get<StatItem[]>(`https://swbackstg.vercel.app/survey/${id}/dropoff-questions`)
       .then((res) => {
         setStats(res.data);
       })
