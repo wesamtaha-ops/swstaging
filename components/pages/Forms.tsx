@@ -119,9 +119,9 @@ export default function Forms() {
 
       let apiUrl = "";
       // if (user?.role === "editor" || user?.role === "viewer") {
-      //   apiUrl = `https://backend.votly.co/getsurveyByUserId/${userId}`;
+      //   apiUrl = `https://backend.votly.co//getsurveyByUserId/${userId}`;
       // } else {
-      apiUrl = `https://backend.votly.co/user/survey/${workspaceId}`;
+      apiUrl = `https://backend.votly.co//user/survey/${workspaceId}`;
       // }
 
       const response = await fetch(apiUrl);
@@ -136,7 +136,7 @@ export default function Forms() {
       const completionPromises = data.map(async (survey: Form) => {
         try {
           const res = await axios.get(
-            `https://backend.votly.co/surveys/completion/${survey._id}`
+            `https://backend.votly.co//surveys/completion/${survey._id}`
           );
           return {
             id: survey._id,
@@ -150,7 +150,7 @@ export default function Forms() {
       const avgTimesPromises = data.map(async (survey: Form) => {
         try {
           const res = await axios.get(
-            `https://backend.votly.co/survey/average_time/${survey._id}`
+            `https://backend.votly.co//survey/average_time/${survey._id}`
           );
           return { id: survey._id, averageTime: res.data.averageTime || 0 };
         } catch (error) {
@@ -200,7 +200,7 @@ export default function Forms() {
       for (const survey of currentSurveys) {
         try {
           const res = await axios.get(
-            `https://backend.votly.co/submit_survey/responses/${survey._id} `
+            `https://backend.votly.co//submit_survey/responses/${survey._id} `
           );
           counts[survey._id] = res.data.length;
           setResponsesCount(counts);

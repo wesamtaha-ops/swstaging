@@ -178,7 +178,7 @@ export function QuestionAnalytics({ responses, stats }: CompletionTabProps) {
     const fetchAverageScores = async () => {
       try {
         const response = await axios.get(
-          `https://backend.votly.co/survey/${id}/average-scores`,
+          `https://backend.votly.co//survey/${id}/average-scores`,
 
           { withCredentials: true }
         );
