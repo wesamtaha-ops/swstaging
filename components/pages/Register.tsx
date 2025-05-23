@@ -98,7 +98,7 @@
 //   const navigate = useNavigate();
 //   useEffect(() => {
 //     if (token) {
-//       fetch(`https://swbackstg.onrender.com/invitations/getByToken/${token}`)
+//       fetch(`https://backend.votly.co//invitations/getByToken/${token}`)
 //         .then((response) => response.json())
 //         .then((data) => {
 
@@ -163,7 +163,7 @@
 //         invitationToken: token, // Ajout du token d'invitation
 //       };
 
-//       const response = await fetch("https://swbackstg.onrender.com/user/register", {
+//       const response = await fetch("https://backend.votly.co//user/register", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -539,7 +539,7 @@
 //   const navigate = useNavigate();
 //   useEffect(() => {
 //     if (token) {
-//       fetch(`https://swbackstg.onrender.com/invitations/getByToken/${token}`)
+//       fetch(`https://backend.votly.co//invitations/getByToken/${token}`)
 //         .then((response) => response.json())
 //         .then((data) => {
 
@@ -604,7 +604,7 @@
 //         invitationToken: token, // Ajout du token d'invitation
 //       };
 
-//       const response = await fetch("https://swbackstg.onrender.com/user/register", {
+//       const response = await fetch("https://backend.votly.co//user/register", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -967,7 +967,7 @@ export default function SignupPage() {
   const navigate = useNavigate();
   useEffect(() => {
     if (token) {
-      fetch(`https://swbackstg.onrender.com/invitations/getByToken/${token} `)
+      fetch(`https://backend.votly.co//invitations/getByToken/${token} `)
         .then((response) => response.json())
         .then((data) => {
 
@@ -1032,7 +1032,7 @@ export default function SignupPage() {
         invitationToken: token, // Ajout du token d'invitation
       };
 
-      const response = await fetch("https://swbackstg.onrender.com/user/register", {
+      const response = await fetch("https://backend.votly.co//user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

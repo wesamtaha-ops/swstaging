@@ -106,7 +106,7 @@ export default function FormResults() {
     const fetchs = async () => {
       try {
         const res = await axios.get(
-          `https://swbackstg.onrender.com/getsurvey/${id}`
+          `https://backend.votly.co//getsurvey/${id}`
         );
         setSurveys(res.data)
 
@@ -126,7 +126,7 @@ export default function FormResults() {
     const fetchResponseCount = async () => {
       try {
         const res = await axios.get(
-          `https://swbackstg.onrender.com/survey/${id}/response-count`
+          `https://backend.votly.co//survey/${id}/response-count`
         );
         setResponseCount(res.data.responseCount);
       } catch (err) {
@@ -145,7 +145,7 @@ export default function FormResults() {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get(`https://swbackstg.onrender.com/survey/${id}/stats`);
+        const res = await axios.get(`https://backend.votly.co//survey/${id}/stats`);
         setStats(res.data);
         console.log(res.data);
       } catch (err) {
@@ -163,7 +163,7 @@ export default function FormResults() {
     const fetchResponses = async () => {
       try {
         const res = await axios.get<ResponseDetails[]>(
-          `https://swbackstg.onrender.com/submit_survey/responses/${id}`
+          `https://backend.votly.co//submit_survey/responses/${id}`
         );
         const data = res.data;
 

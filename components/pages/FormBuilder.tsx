@@ -85,7 +85,7 @@ export default function FormBuilder() {
       if (!formId || creator) return;
 
       try {
-        const res = await fetch(`https://swbackstg.onrender.com/getsurvey/${formId}`);
+        const res = await fetch(`https://backend.votly.co//getsurvey/${formId}`);
         const data = await res.json();
 
         if (!data || !data.json) return;
@@ -235,7 +235,7 @@ export default function FormBuilder() {
       workspaceId: workspaceId,
     };
     try {
-      const response = await fetch("https://swbackstg.onrender.com/create_survey", {
+      const response = await fetch("https://backend.votly.co//create_survey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(surveyData),

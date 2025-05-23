@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Configuration d'Axios
 const api = axios.create({
-  baseURL: "https://swbackstg.onrender.com",
+  baseURL: "https://backend.votly.co/",
   withCredentials: true,
 });
 
@@ -22,7 +22,7 @@ api.interceptors.response.use(
 
     
         const refreshResponse = await axios.post(
-          "https://swbackstg.onrender.com/user/refresh-token",
+          "https://backend.votly.co//user/refresh-token",
           {},
           { withCredentials: true }
         );

@@ -25,7 +25,7 @@ export function FormOptionsDropdown({
     setLoading(true);
     try {
       const response = await fetch(
-        `https://swbackstg.onrender.com/close_survey/${idForm}/close`,
+        `https://backend.votly.co//close_survey/${idForm}/close`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
