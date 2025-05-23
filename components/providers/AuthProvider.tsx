@@ -54,7 +54,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // const login = async (email: string, password: string) => {
   //   try {
   //     setIsLoading(true);
-  //     const response = await fetch("https://backend.votly.co//user/login", {
+  //     const response = await fetch("https://backend.votly.co/user/login", {
   //       method: "POST",
   //       headers: {
   //         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // const login = async (email: string, password: string) => {
   //   try {
   //     setIsLoading(true);
-  //     const response = await fetch("https://backend.votly.co//user/login", {
+  //     const response = await fetch("https://backend.votly.co/user/login", {
   //       method: "POST",
   //       headers: {
   //         "Content-Type": "application/json",
@@ -115,7 +115,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     try {
       // setIsLoading(true);
 
-      await fetch("https://backend.votly.co//user/logout", {
+      await fetch("https://backend.votly.co/user/logout", {
         method: "POST",
         credentials: "include",
       });
@@ -136,7 +136,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setIsLoading(true);
 
       // Vérifier si l'utilisateur est authentifié
-      const response = await fetch("https://backend.votly.co//user/authenticated", {
+      const response = await fetch("https://backend.votly.co/user/authenticated", {
         method: "GET",
         credentials: "include",
       });
@@ -155,7 +155,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       console.warn("Token expiré, tentative de rafraîchissement...");
 
       const refreshResponse = await fetch(
-        "https://backend.votly.co//user/refresh-token",
+        "https://backend.votly.co/user/refresh-token",
         {
           method: "POST",
           credentials: "include",
@@ -168,7 +168,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         // Réessayer la requête authenticated après rafraîchissement
         const retryResponse = await fetch(
-          "https://backend.votly.co//user/authenticated",
+          "https://backend.votly.co/user/authenticated",
           {
             method: "GET",
             credentials: "include",
@@ -210,7 +210,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // const checkAuth = async () => {
   //   try {
   //     setIsLoading(true);
-  //     const response = await fetch("https://backend.votly.co//user/authenticated", {
+  //     const response = await fetch("https://backend.votly.co/user/authenticated", {
   //       method: "GET",
   //       credentials: "include",
   //     });

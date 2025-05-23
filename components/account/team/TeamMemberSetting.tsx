@@ -424,7 +424,7 @@ function TeamMemberSetting({
     if (!selectedAdminId || !adminToDelete) return;
 
     try {
-      await axios.put("https://backend.votly.co//user/update-role", {
+      await axios.put("https://backend.votly.co/user/update-role", {
         userId: selectedAdminId,
         role: ownerRole,
       });

@@ -35,7 +35,7 @@ export function CompletionTab({ responses, stats }: CompletionTabProps) {
   useEffect(() => {
     const fetchAcceptedInvitations = async () => {
       try {
-        const response = await axios.get(`https://backend.votly.co//survey/invitationsurvey/${id}`);
+        const response = await axios.get(`https://backend.votly.co/survey/invitationsurvey/${id}`);
         setCount(response.data.acceptedInvitations);
       } catch (error) {
         console.error("Error fetching invitation count:", error);
@@ -63,7 +63,7 @@ export function CompletionTab({ responses, stats }: CompletionTabProps) {
   const handleRetarget = async (email: string, surveyID: string, progress: number) => {
     setLoadingRetarget(email);
     try {
-      await axios.post("https://backend.votly.co//retarget_survey", { email, surveyID, progress });
+      await axios.post("https://backend.votly.co/retarget_survey", { email, surveyID, progress });
       setLoadingRetarget("sent");
       setTimeout(() => setLoadingRetarget(null), 3000);
     } catch (error) {
