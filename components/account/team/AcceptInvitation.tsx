@@ -20,7 +20,7 @@ const AcceptInvitation: React.FC = () => {
 
       try {
         const response = await axios.post(
-          "https://backend.votly.co//invitations/accept",
+          "https://swbackstg.onrender.com/invitations/accept",
           { token }
         );
 

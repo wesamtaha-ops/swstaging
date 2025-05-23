@@ -37,7 +37,7 @@ export function NotificationsPanel() {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
-        const res = await fetch(`https://backend.votly.co//surveys/notification_settings/${formId}`);
+        const res = await fetch(`https://swbackstg.onrender.com/surveys/notification_settings/${formId}`);
         const data = await res.json();
         setSelfNotify(data.selfNotify || false);
         setRespondentNotify(data.respondentNotify || false);
@@ -53,7 +53,7 @@ export function NotificationsPanel() {
   // 🔹 Sauvegarder les paramètres de notifications
   const saveSettings = async () => {
     try {
-      await fetch(`https://backend.votly.co//surveys/notification_settings/${formId}`, {
+      await fetch(`https://swbackstg.onrender.com/surveys/notification_settings/${formId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
