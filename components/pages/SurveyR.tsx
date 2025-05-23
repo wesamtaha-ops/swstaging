@@ -111,7 +111,7 @@ const SurveyR: React.FC = () => {
     const fetchSentiment = async () => {
       try {
         const res = await fetch(
-          "http://localhost:4001/api/generate-description",
+          "https://ai.votly.co/sentiment/api/generate-description",
           {
             method: "POST",
             headers: {
