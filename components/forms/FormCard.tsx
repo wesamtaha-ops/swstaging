@@ -57,7 +57,7 @@ export function FormCard({
   const handleShareClick = async (formId: string) => {
     // Ajout de async
     try {
-      const res = await axios.get(`https://swbackstg.vercel.app/getsurvey/${formId}`);
+      const res = await axios.get(`https://backend.votly.co/getsurvey/${formId}`);
 
       setIsClosed(res.data.isClosed);
       setOpenDate(res.data.openDate ? new Date(res.data.openDate) : null);
@@ -116,7 +116,7 @@ export function FormCard({
 
     try {
       const response = await axios.post(
-        `https://swbackstg.vercel.app/publish_survey/${formId}`,
+        `https://backend.votly.co/publish_survey/${formId}`,
         {
           email,
         }

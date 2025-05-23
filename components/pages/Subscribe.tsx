@@ -16,7 +16,7 @@ const Subscribe: React.FC = () => {
     if (plan) {
 
 
-      axios.get("https://swbackstg.vercel.app/subscribe", {
+      axios.get("https://backend.votly.co/subscribe", {
 
         params: { plan, userId, userEmail },
       })

@@ -133,7 +133,7 @@ export default function FormBuilder() {
 
         const fetchSurvey = async () => {
           try {
-            const { data } = await axios.get<SurveyData>(`https://swbackstg.vercel.app/survey_version/version/${versionId}`
+            const { data } = await axios.get<SurveyData>(`https://backend.votly.co/survey_version/version/${versionId}`
 
             );
             if (!data || !data.json) {
@@ -214,7 +214,7 @@ export default function FormBuilder() {
     };
 
     try {
-      await axios.put(`https://swbackstg.vercel.app/update_survey_version/version/edit/${versionId}`,
+      await axios.put(`https://backend.votly.co/update_survey_version/version/edit/${versionId}`,
 
         updatedSurvey
       );

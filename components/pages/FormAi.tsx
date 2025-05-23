@@ -149,7 +149,7 @@ export default function FormBuilder() {
         // const fetchSurvey = async () => {
         //   try {
         //     const { data } = await axios.get<SurveyData>(
-        //       `https://swbackstg.vercel.app/getsurvey/${id}`
+        //       `https://backend.votly.co/getsurvey/${id}`
         //     );
 
         //     if (!data || !data.json) {
@@ -205,7 +205,7 @@ export default function FormBuilder() {
         // };
 
         const { data } = await axios.get(
-          `https://swbackstg.vercel.app/survey_versions/versions/${id}`
+          `https://backend.votly.co/survey_versions/versions/${id}`
         );
 
         setVersions(data);
@@ -238,7 +238,7 @@ export default function FormBuilder() {
 
     try {
       await axios.put(
-        ` https://swbackstg.vercel.app/update_survey/${id}`,
+        ` https://backend.votly.co/update_survey/${id}`,
         updatedSurvey
       );
 
@@ -262,7 +262,7 @@ export default function FormBuilder() {
 
     try {
 
-      const response = await fetch("https://swbackstg.vercel.app/create_survey", {
+      const response = await fetch("https://backend.votly.co/create_survey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(surveyData),
