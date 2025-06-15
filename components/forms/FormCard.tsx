@@ -97,7 +97,7 @@ export function FormCard({
 
   const copyToClipboard = (formId: string) => {
     try {
-      const link = `http://localhost:5173/publish_survey/${formId}`;
+      const link = `https://staging.votly.co/publish_survey/${formId}`;
       setCopied(true);
       navigator.clipboard.writeText(link.trim());
       setTimeout(() => setCopied(false), 2000);
@@ -401,7 +401,7 @@ export function FormCard({
                     <input
                       type="text"
                       className="w-full px-4 py-2 text-sm rounded-lg"
-                      value={`http://localhost:5173/publish_survey/${form._id} `}
+                      value={`https://staging.votly.co/publish_survey/${form._id} `}
                       readOnly
                     />
                     <button
