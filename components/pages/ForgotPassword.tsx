@@ -9,8 +9,11 @@ import {
   Loader,
 } from "lucide-react";
 import toast from "react-hot-toast";
+import { useTranslation } from "react-i18next";
+
 
 export default function ForgotPassword() {
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -18,13 +21,20 @@ export default function ForgotPassword() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+     try {
+    const response = await fetch("https://backend.votly.co/user/forgot-password", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email }),
+    });
 
-    try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+    const data = await response.json();
 
+    if (response.ok) {
       setIsSuccess(true);
-      toast.success("Reset instructions sent to your email!", {
+      toast.success(data.msg || t("forgotPassword.toastSuccess"), {
         icon: "📧",
         style: {
           borderRadius: "10px",
@@ -32,8 +42,8 @@ export default function ForgotPassword() {
           color: "#fff",
         },
       });
-    } catch (error) {
-      toast.error("Failed to send reset instructions. Please try again.", {
+    } else {
+      toast.error(data.msg || t("forgotPassword.toastError"), {
         icon: "❌",
         style: {
           borderRadius: "10px",
@@ -41,9 +51,20 @@ export default function ForgotPassword() {
           color: "#fff",
         },
       });
-    } finally {
-      setIsLoading(false);
     }
+  } catch (error) {
+    toast.error(t("forgotPassword.toastError"), {
+      icon: "❌",
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
+  } finally {
+    setIsLoading(false);
+  }
+
   };
 
   return (
@@ -54,7 +75,7 @@ export default function ForgotPassword() {
           className="inline-flex items-center text-sm font-almarai text-gray-500 hover:text-indigo-600 mb-8 transition-colors duration-200"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Back to login
+          {t("forgotPassword.backToLogin")}
         </Link>
 
         <div className="relative">
@@ -76,11 +97,10 @@ export default function ForgotPassword() {
                     <Mail className="h-8 w-8 text-indigo-600" />
                   </motion.div>
                   <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-                    Forgot your password?
+                    {t("forgotPassword.forgotPasswordTitle")}
                   </h2>
                   <p className="mt-2 text-sm text-gray-600">
-                    No worries! Enter your email and we'll send you reset
-                    instructions.
+                    {t("forgotPassword.forgotPasswordSubtitle")}
                   </p>
                 </div>
               </div>
@@ -91,7 +111,7 @@ export default function ForgotPassword() {
                     htmlFor="email"
                     className="block text-sm font-almarai text-gray-700"
                   >
-                    Email address
+                    {t("forgotPassword.emailLabel")}
                   </label>
                   <div className="mt-1 relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -106,7 +126,7 @@ export default function ForgotPassword() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       className="appearance-none block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                      placeholder="Enter your email"
+                      placeholder={t("forgotPassword.emailPlaceholder")}
                     />
                   </div>
                 </div>
@@ -120,7 +140,7 @@ export default function ForgotPassword() {
                     {isLoading ? (
                       <Loader className="animate-spin h-5 w-5" />
                     ) : (
-                      "Send Reset Instructions"
+                      t("forgotPassword.resendEmail")
                     )}
                   </button>
                 </div>
@@ -136,10 +156,10 @@ export default function ForgotPassword() {
                 <CheckCircle className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-almarai text-gray-900 mb-2">
-                Check your email
+                {t("forgotPassword.checkEmailTitle")}
               </h3>
               <p className="text-sm text-gray-600 mb-6">
-                We've sent password reset instructions to:
+                {t("forgotPassword.checkEmailMessage")}
                 <br />
                 <span className="font-almarai text-gray-900">{email}</span>
               </p>
@@ -148,13 +168,13 @@ export default function ForgotPassword() {
                   onClick={handleSubmit}
                   className="w-full inline-flex justify-center items-center px-4 py-2 border border-transparent text-sm font-almarai rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  Resend Email
+                  {t("forgotPassword.resendEmail")}
                 </button>
                 <Link
                   to="/login"
                   className="w-full inline-flex justify-center items-center px-4 py-2 border border-gray-300 text-sm font-almarai rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  Back to Login
+                  {t("forgotPassword.backToLogin")}
                 </Link>
               </div>
             </motion.div>
@@ -166,7 +186,7 @@ export default function ForgotPassword() {
                 <div className="w-full border-t border-gray-200" />
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-white text-gray-500">Need help?</span>
+                <span className="px-2 bg-white text-gray-500">{t("forgotPassword.needHelp")}</span>
               </div>
             </div>
 
@@ -175,7 +195,7 @@ export default function ForgotPassword() {
                 to="/contact"
                 className="text-sm font-almarai text-indigo-600 hover:text-indigo-500"
               >
-                Contact Support
+                {t("forgotPassword.contactSupport")}
               </Link>
             </div>
           </div>

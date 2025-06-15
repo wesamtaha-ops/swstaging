@@ -181,7 +181,7 @@ const AiFormCreator: React.FC = () => {
 
     try {
       const response = await axios.get(
-        "https://ai.votly.co/api/generate_question",
+        "http://localhost:4000/api/generate_question",
         {
           params: { prompt },
           withCredentials: true,

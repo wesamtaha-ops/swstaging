@@ -17,7 +17,14 @@
     "success_message": "Your account has been successfully created.",
     "ok": "OK",
     "verifymail": "Verify your Email!",
-    "closingin": "Closing in <b></b> milliseconds "
+    "closingin": "Closing in <b></b> milliseconds ",
+    "error_invitation":"Error retrieving invitation:",
+    "error_password": "-Password must contain at least 8 characters, including letters and numbers",
+    "error_password_mismatch": "Passwords do not match",
+    "error_email": "Please enter a valid email ",
+    "error_field":" all fields are required",
+    "error_detected":"Error detected"
+
   },
   "login": {
     "welcome": "It's great to see you again!",
@@ -43,6 +50,37 @@
     "text1": "All fields are required!",
     "error": "Please enter a valid email address"
   },
+  "forgotPassword": {
+    "backToLogin": "Back to login",
+    "forgotPasswordTitle": "Forgot your password?",
+    "forgotPasswordSubtitle": "No worries! Enter your email and we'll send you reset instructions.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "sendButton": "Send Reset Instructions",
+    "checkEmailTitle": "Check your email",
+    "checkEmailMessage": "We've sent password reset instructions to:",
+    "resendEmail": "Resend Email",
+    "needHelp": "Need help?",
+    "contactSupport": "Contact Support",
+    "toastSuccess": "Reset instructions sent to your email!",
+    "toastError": "Failed to send reset instructions. Please try again."
+  },
+  "reset": {
+    "title": "Reset Password",
+    "invalidLink": "The reset link is invalid or missing.",
+    "passwordTooShort": "Password must be at least 6 characters.",
+    "passwordsDontMatch": "Passwords do not match.",
+    "success": "Password reset successfully!",
+    "error": "An error occurred. Please try again.",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "changePassword": "Change Password",
+    "successTitle": "Password Reset Successful",
+    "redirectMessage": "You will be redirected to the login page..."
+  }
+  ,
   "pricing22": {
     "title1": " Create unlimited forms at no cost",
     "included": "What’s included",

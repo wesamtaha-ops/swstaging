@@ -460,7 +460,7 @@ const Pricing = () => {
                   {row.map((cell, j) => (
                     <td
                       key={j}
-                      className={`p-4 ${j === 0 ? "font-medium text-gray-600" : "text-gray-900"
+                      className={`p-4 ${j === 0 ? " font-bold font-almarai text-gray-600" : "text-gray-900"
                         }`}
                     >
                       {cell}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Swal from "sweetalert2";
@@ -11,6 +12,7 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/src/app/store";
 import { useSelector } from "react-redux";
 import { createWorkspace } from "@/src/features/workspace/workspaceSlice";
+
 
 export default function Login() {
   const { t, i18n } = useTranslation();
@@ -68,15 +70,13 @@ export default function Login() {
       Swal.fire({
         icon: "error",
         title: t("login.connection"),
-        text: error.message || "Email ou mot de passe incorrect !",
+        text: error.message || "Email or password incorrect !",
       });
-      setError(error.message || "Email ou mot de passe incorrect !");
+      setError(error.message || "Email or password incorrect !");
     } finally {
       setIsLoading(false);
     }
   };
-
-
   return (
     <div className="flex min-h-screen font-almarai">
       <div className="w-1/2 flex flex-col justify-center items-center px-8">
@@ -149,6 +149,25 @@ export default function Login() {
                     placeholder={t("login.password_placeholder")}
                   />
                 </div>
+              </div>
+
+
+              {/* Remember Me and Forgot Password */}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <input
+                    id="remember-me"
+                    name="remember-me"
+                    type="checkbox"
+                    className="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                  />
+                  <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
+                    {t("login.remember_me")}
+                  </label>
+                </div>
+                <Link to="/forgot-password" className="text-sm text-indigo-600 hover:underline">
+                  {t("login.forgot_password")}
+                </Link>
               </div>
 
               {/* Bouton de soumission */}

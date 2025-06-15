@@ -109,4 +109,3 @@ Here are the available npm scripts:
 ---
 
 Thank you for contributing to Votly SaaS! 😊
-# swstaging

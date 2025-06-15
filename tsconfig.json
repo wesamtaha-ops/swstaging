@@ -14,6 +14,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noFallthrough": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]

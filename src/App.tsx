@@ -28,6 +28,7 @@ import Privacy from "@/components/pages/Privacy";
 import Cookies from "@/components/pages/Cookies";
 import Pricing from "@/components/pages/Pricing";
 import ForgotPassword from "@/components/pages/ForgotPassword";
+import ResetPassword from "@/components/pages/ResetPassword";
 
 //  Team + Invites
 import AcceptInvitation from "@/components/account/team/AcceptInvitation";
@@ -127,6 +128,14 @@ function App() {
             element={
               <PublicRoute>
                 <ForgotPassword />
+              </PublicRoute>
+            }
+          />
+          <Route
+            path="/reset-password/:token"
+            element={
+              <PublicRoute>
+                <ResetPassword />
               </PublicRoute>
             }
           />
