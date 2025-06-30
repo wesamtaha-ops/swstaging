@@ -4,7 +4,7 @@ import axios from "axios";
 
 // Configuration d'Axios
 const api = axios.create({
-  baseURL: "https://backend.votly.app",
+  baseURL: "https://backend.votly.co",
   withCredentials: true,
 });
 
