@@ -56,7 +56,7 @@ export function ProfileTab() {
     }
 
     try {
-      const response = await fetch(`https://backend.votly.co/user/put/${user?.email}`, {
+      const response = await fetch(`https://backend.votly.app/user/put/${user?.email}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         credentials: "include",

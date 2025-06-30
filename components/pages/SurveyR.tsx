@@ -91,7 +91,7 @@ const SurveyR: React.FC = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await axios.get(`https://backend.votly.co/survey/${id}/stats`);
+        const res = await axios.get(`https://backend.votly.app/survey/${id}/stats`);
         setStats(res.data);
         console.log(res.data);
       } catch (err) {
@@ -144,7 +144,7 @@ const SurveyR: React.FC = () => {
     const fetchResponseCount = async () => {
       try {
         const res = await axios.get(
-          `https://backend.votly.co/survey/${id}/response-count`
+          `https://backend.votly.app/survey/${id}/response-count`
         );
         setResponseCount(res.data.responseCount);
       } catch (err) {
@@ -162,7 +162,7 @@ const SurveyR: React.FC = () => {
     const fetchResponses = async () => {
       try {
         const res = await axios.get<Response[]>(
-          `https://backend.votly.co/submit_survey/responses/${id}`
+          `https://backend.votly.app/submit_survey/responses/${id}`
         );
         const data = res.data;
         console.log(data, "dataaaaglobal");
@@ -303,7 +303,7 @@ const SurveyR: React.FC = () => {
     setLoadingRetarget(email); // 🟡 Active l'animation pour ce bouton
 
     try {
-      await axios.post("https://backend.votly.co/retarget_survey", {
+      await axios.post("https://backend.votly.app/retarget_survey", {
         email,
         surveyID,
         progress,

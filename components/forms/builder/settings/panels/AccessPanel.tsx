@@ -38,7 +38,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
 
   const fetchAccessSettings = async () => {
     try {
-      const res = await fetch(`https://backend.votly.co/getsurvey/${surveyId}`);
+      const res = await fetch(`https://backend.votly.app/getsurvey/${surveyId}`);
 
       const data = await res.json();
 
@@ -77,7 +77,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
       };
 
 
-      await fetch(`https://backend.votly.co/surveys/access/${surveyId}`, {
+      await fetch(`https://backend.votly.app/surveys/access/${surveyId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -92,7 +92,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
 
   const handleCloseForm = async () => {
     try {
-      const res = await fetch(`https://backend.votly.co/close_survey/${surveyId}/close`, {
+      const res = await fetch(`https://backend.votly.app/close_survey/${surveyId}/close`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
       });
@@ -113,7 +113,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
 
   const handleOpenForm = async () => {
     try {
-      const res = await fetch(`https://backend.votly.co/close_survey/${surveyId}`, {
+      const res = await fetch(`https://backend.votly.app/close_survey/${surveyId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
       });
@@ -141,7 +141,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
 
   const saveOpenDate = async () => {
     try {
-      await fetch(`https://backend.votly.co/surveys/access/${surveyId}`, {
+      await fetch(`https://backend.votly.app/surveys/access/${surveyId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ openDate: openDate?.toISOString() }),
@@ -154,7 +154,7 @@ export function AccessPanel({ isClosed, onChangeIsClosed }: AccessPanelProps) {
 
   const saveExpirationDate = async () => {
     try {
-      await fetch(`https://backend.votly.co/surveys/access/${surveyId}`, {
+      await fetch(`https://backend.votly.app/surveys/access/${surveyId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ expirationDate: expirationDate?.toISOString() }),

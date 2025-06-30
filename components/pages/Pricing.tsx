@@ -92,7 +92,7 @@ const Pricing = () => {
     const fetchuser = async () => {
       try {
         const { data } = await axios.get(
-          ` https://backend.votly.co/user/plan/${user?._id}`
+          ` https://backend.votly.app/user/plan/${user?._id}`
         );
         console.log(data, "data");
         setPlan(data.plan);

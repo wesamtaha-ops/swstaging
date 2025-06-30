@@ -96,7 +96,7 @@ export default function SignupPage() {
 
   useEffect(() => {
     if (token) {
-      fetch(`https://backend.votly.co/invitations/getByToken/${token}`)
+      fetch(`https://backend.votly.app/invitations/getByToken/${token}`)
         .then((response) => response.json())
         .then((data) => {
           setRole(data.role);
@@ -160,7 +160,7 @@ export default function SignupPage() {
         invitationToken: token,
       };
 
-      const response = await fetch("https://backend.votly.co/user/register", {
+      const response = await fetch("https://backend.votly.app/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
