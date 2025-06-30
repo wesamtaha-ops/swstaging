@@ -215,7 +215,7 @@ export default function FormBuilder() {
       workspaceId: workspaceId,
     };
     try {
-      const response = await fetch("https://backend.votly.app/create_survey", {
+      const response = await fetch("https://backend.votly.co/create_survey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(surveyData),

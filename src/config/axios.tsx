@@ -22,7 +22,7 @@ api.interceptors.response.use(
 
     
         const refreshResponse = await axios.post(
-          "https://backend.votly.app/user/refresh-token",
+          "https://backend.votly.co/user/refresh-token",
           {},
           { withCredentials: true }
         );

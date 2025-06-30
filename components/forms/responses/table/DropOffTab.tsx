@@ -32,7 +32,7 @@ export function DropOffTab() {
 
   useEffect(() => {
     axios
-      .get<StatItem[]>(`https://backend.votly.app/survey/${id}/dropoff-questions`)
+      .get<StatItem[]>(`https://backend.votly.co/survey/${id}/dropoff-questions`)
       .then((res) => {
         setStats(res.data);
       })

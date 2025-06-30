@@ -22,7 +22,7 @@ export default function ForgotPassword() {
     e.preventDefault();
     setIsLoading(true);
      try {
-    const response = await fetch("https://backend.votly.app/user/forgot-password", {
+    const response = await fetch("https://backend.votly.co/user/forgot-password", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

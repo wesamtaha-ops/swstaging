@@ -46,7 +46,7 @@ export default function ResetPassword() {
         }
 
         try {
-            const response = await fetch('https://backend.votly.app/user/reset-password', {
+            const response = await fetch('https://backend.votly.co/user/reset-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

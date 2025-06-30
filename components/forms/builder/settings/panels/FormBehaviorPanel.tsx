@@ -29,7 +29,7 @@ export function FormBehaviorPanel() {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
-        const res = await axios.get(`https://backend.votly.app/getsurvey/${surveyId}`);
+        const res = await axios.get(`https://backend.votly.co/getsurvey/${surveyId}`);
         const data = res.data;
         setSettings({
           cookieConsent: data.cookieConsent || false,
@@ -55,7 +55,7 @@ export function FormBehaviorPanel() {
 
   const handleSave = async () => {
     try {
-      await axios.put(`https://backend.votly.app/surveys/behavior/${surveyId}`, settings);
+      await axios.put(`https://backend.votly.co/surveys/behavior/${surveyId}`, settings);
       toast.success("✅ Settings Saved!");
     } catch (error) {
       console.error("Eroor", error);

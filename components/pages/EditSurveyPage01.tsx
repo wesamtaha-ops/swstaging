@@ -136,7 +136,7 @@ export default function FormBuilder() {
         const fetchSurvey = async () => {
           try {
             const { data } = await axios.get<SurveyData>(
-              `https://backend.votly.app/getsurvey/${id}`
+              `https://backend.votly.co/getsurvey/${id}`
             );
 
             if (!data || !data.json) {
@@ -192,7 +192,7 @@ export default function FormBuilder() {
         // };
 
         const { data } = await axios.get(
-          `https://backend.votly.app/survey_versions/versions/${id}`
+          `https://backend.votly.co/survey_versions/versions/${id}`
         );
 
         setVersions(data);
@@ -224,7 +224,7 @@ export default function FormBuilder() {
 
     try {
       await axios.put(
-        ` https://backend.votly.app/update_survey/${id}`,
+        ` https://backend.votly.co/update_survey/${id}`,
         updatedSurvey
       );
 
